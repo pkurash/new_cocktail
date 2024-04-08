@@ -1,0 +1,8 @@
+%particle       centrality  method      pt const rel sys(%) ptMin   ptMax   func        opt
+EtaToNPion      MB          PCM         -                   0.4     10.0    softHard    QNRME+  0.53        0.5 0.55    -159101     - - 1.56        - - 46.19       - - -0.01       - - 8.78    - - 10.65   - - stop
+EtaToNPion      MB          OldPub      -                   0.4     8.0     softHard    QNRME+  0.48        0.4 0.55    -159101    - - 1.56        - - 46.19       - - -0.01       - - 8.78    - - 10.65   - - stop
+EtaToNPion      MB          Comb        -                   0.4     25.0    softHard    QNRME+  0.53        0.5 0.55    -159101     - - 1.56        - - 46.19       - - -0.01       - - 8.78    - - 10.65   - - stop
+%PhiToNPion      MB          -           -                   0.4     6.0     softHard    QNRME+  -16.2837    -   -       0.791982    - - 0.0560655   - - 0.112655    - - 0.00400803  - - 2.22812 - - 10.149  - - stop
+OmegaToNPion    MB          -        -                      2.0     16.0    softHard    QNRME+  0.53        0.5 0.55    -159101     - - 1.56        - - 46.19       - - -0.01       - - 8.78    - - 10.65   - - stop
+NRhoToCPion    MB          -        -                      0.5     11.0    softHard    QNRME+  0.9    -   -       0.791982    - - 0.0560655   - - 0.112655    - - 0.00400803  - - 2.22812 - - 10.149  - - stop
+

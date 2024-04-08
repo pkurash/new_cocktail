@@ -1,0 +1,7 @@
+%particle   mtScaleFactor   mtScaleFactorUp     mtScaleFactorDown     particle    method  ratio           method
+111	    -		    -			-		      NPion	  PCM	  stop		  
+221	    -		    -			-		      Eta	  PCM	  stop
+211         -               -                   -                     CPion       -       stop
+321         -               -                   -                     CKaon       -       stop                                                                      		  
+310         -               -                   -                     NKaonSubS   -       stop
+2212        -               -                   -                     Proton      -       stop

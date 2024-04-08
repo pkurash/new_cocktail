@@ -1,0 +1,21 @@
+%: table_doi: 10.17182/hepdata.73011.v1/t15
+%: name: Table 15
+%: description: Mean pT of XI- in p-Pb collisions with centre-of-mass energy/nucleon=5.02 TeV for each V0A multiplicity event class.
+
+%: data_file: Table15.yaml
+%: keyword reactions: P PB --> XI- X
+%: keyword observables: PT
+%: keyword phrases: Inclusive
+%: keyword cmenergies: 5020.0
+%: RE   P PB --> XI- X
+%: YRAP(C=CM)   -0.5-0.0
+%: SQRT(S)/NUCLEON [GeV]   5020.0
+%'class [PCT]' 'class [PCT] LOW' 'class [PCT] HIGH' '$\langle p_{T} \rangle$ [GEV]' 'stat +' 'stat -' 'sys total +' 'sys total -' 'sys uncorr +' 'sys uncorr -'
+2.5 0.0 5.0 1.574 0.01 -0.01 0.037 -0.037 0.012 -0.012
+7.5 5.0 10.0 1.529 0.009 -0.009 0.036 -0.036 0.014 -0.014
+15.0 10.0 20.0 1.515 0.007 -0.007 0.034 -0.034 0.016 -0.016
+30.0 20.0 40.0 1.468 0.006 -0.006 0.032 -0.032 0.011 -0.011
+50.0 40.0 60.0 1.394 0.012 -0.012 0.03 -0.03 0.016 -0.016
+70.0 60.0 80.0 1.28 0.009 -0.009 0.032 -0.032 0.015 -0.015
+90.0 80.0 100.0 1.155 0.018 -0.018 0.037 -0.037 0.017 -0.017
+

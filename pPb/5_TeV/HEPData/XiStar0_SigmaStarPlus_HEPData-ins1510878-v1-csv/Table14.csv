@@ -1,0 +1,16 @@
+#: table_doi: 10.17182/hepdata.77971.v1/t14
+#: name: Table 14
+#: description: Mean $p_{\rm T}$ of $\Xi^{*0}$ in p-Pb collisions with centre-of-mass energy/nucleon=5.02 TeV for each V0A multiplicity event class.
+
+#: data_file: Table14.yaml
+#: keyword reactions: P PB --> XI(1530)0 X | P PB --> XIBAR(1530)0 X
+#: keyword observables: DN/DETARAP
+#: SQRT(S)/NUCLEON,5020 GeV
+#: RE,P PB --> XI(1530)0 X
+'Multiplicity class (%)','$\langle p_{\rm{T}} \rangle$ [GeV/c]','stat +','stat -','sys +','sys -'
+'0-100',1.54,0.016,-0.016,0.071,-0.071
+'0-20',1.626,0.016,-0.016,0.068,-0.068
+'20-40',1.482,0.02,-0.02,0.1,-0.1
+'40-60',1.459,0.025,-0.025,0.114,-0.114
+'60-100',1.377,0.023,-0.023,0.089,-0.089
+

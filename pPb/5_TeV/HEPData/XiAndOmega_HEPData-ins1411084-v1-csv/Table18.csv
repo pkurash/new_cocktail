@@ -1,0 +1,21 @@
+%: table_doi: 10.17182/hepdata.73011.v1/t18
+%: name: Table 18
+%: description: Mean pT of OMEGABAR+ in p-Pb collisions with centre-of-mass energy/nucleon=5.02 TeV for each V0A multiplicity event class.
+
+%: data_file: Table18.yaml
+%: keyword reactions: P PB --> OMEGABAR+ X
+%: keyword observables: PT
+%: keyword phrases: Inclusive
+%: keyword cmenergies: 5020.0
+%: RE   P PB --> OMEGABAR+ X
+%: YRAP(C=CM)   -0.5-0.0
+%: SQRT(S)/NUCLEON [GeV]   5020.0
+%'class [PCT]' 'class [PCT] LOW' 'class [PCT] HIGH' '$\langle p_{T} \rangle$ [GEV]' 'stat +' 'stat -' 'sys total +' 'sys total -' 'sys uncorr +' 'sys uncorr -'
+2.5 0.0 5.0 1.761 0.06 -0.06 0.075 -0.075 0.025 -0.025
+7.5 5.0 10.0 1.847 0.062 -0.062 0.086 -0.086 0.032 -0.032
+15.0 10.0 20.0 1.739 0.048 -0.048 0.073 -0.073 0.034 -0.034
+30.0 20.0 40.0 1.707 0.036 -0.036 0.061 -0.061 0.022 -0.022
+50.0 40.0 60.0 1.593 0.04 -0.04 0.058 -0.058 0.031 -0.031
+70.0 60.0 80.0 1.382 0.078 -0.078 0.076 -0.076 0.036 -0.036
+90.0 80.0 100.0 1.187 0.097 -0.097 0.096 -0.096 0.043 -0.043
+

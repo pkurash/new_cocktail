@@ -1,0 +1,21 @@
+%Path: /HepData/9170/d2-x1-y1
+%pT-differential cross section of prompt Dzero mesons in pp collisions at sqrt{sNN}=7 TeV in the rapidity interval |y|<0.5.
+%Branching ratio of D0->Kpi : 0.0388.
+%Data points for pt<2 GeV/c from analysis "without vertexing". Data points for pt>2 GeV/c from the analysis "with vertexing" taken from JHEP 1201 (2012) 128 (http://hepdata.cedar.ac.uk/view/ins944757) and corrected for the updated BR value
+%Location: Figure 9
+%RE : P P --> D0 (Q=PROMPT) X
+%SQRT(S)/NUCLEON : 7000.0 GeV
+%YRAP : -0.5 - 0.5
+%x : PT IN GEV
+%y : D(SIG)/DPT IN MUB/GEV
+%xdesc	x	xlow	xhigh	y	dy+	dy- (stat)	dy+	dy-	(sys)
+	0.5	0.0	1.0	99.0	+27.7	-27.7	+16.8	-20.6
+	1.5	1.0	2.0	187.0	+30.1	-30.1	+31.7	-53.2
+	2.5	2.0	3.0	114.0	+10.7	-10.7	+19.6	-33.0
+	3.5	3.0	4.0	59.3	+4.29	-4.29	+8.47	-12.5
+	4.5	4.0	5.0	28.9	+2.13	-2.13	+4.14	-5.73
+	5.5	5.0	6.0	12.4	+1.14	-1.14	+1.81	-2.24
+	6.5	6.0	7.0	6.32	+0.691	-0.691	+0.929	-1.07
+	7.5	7.0	8.0	3.05	+0.463	-0.463	+0.494	-0.525
+	10.0	8.0	12.0	1.22	+0.126	-0.126	+0.192	-0.21
+	14.0	12.0	16.0	0.213	+0.0494	-0.0494	+0.037	-0.0379

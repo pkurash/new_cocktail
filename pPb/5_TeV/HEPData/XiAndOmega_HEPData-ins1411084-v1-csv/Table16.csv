@@ -1,0 +1,21 @@
+%: table_doi: 10.17182/hepdata.73011.v1/t16
+%: name: Table 16
+%: description: Mean pT of XIBAR+ in p-Pb collisions with centre-of-mass energy/nucleon=5.02 TeV for each V0A multiplicity event class.
+
+%: data_file: Table16.yaml
+%: keyword reactions: P PB --> XIBAR+ X
+%: keyword observables: PT
+%: keyword phrases: Inclusive
+%: keyword cmenergies: 5020.0
+%: RE   P PB --> XIBAR+ X
+%: YRAP(C=CM)   -0.5-0.0
+%: SQRT(S)/NUCLEON [GeV]   5020.0
+%'class [PCT]' 'class [PCT] LOW' 'class [PCT] HIGH' '$\langle p_{T} \rangle$ [GEV]' 'stat +' 'stat -' 'sys total +' 'sys total -' 'sys uncorr +' 'sys uncorr -'
+2.5 0.0 5.0 1.549 0.01 -0.01 0.037 -0.037 0.012 -0.012
+7.5 5.0 10.0 1.516 0.009 -0.009 0.036 -0.036 0.014 -0.014
+15.0 10.0 20.0 1.502 0.007 -0.007 0.034 -0.034 0.016 -0.016
+30.0 20.0 40.0 1.453 0.006 -0.006 0.032 -0.032 0.011 -0.011
+50.0 40.0 60.0 1.358 0.007 -0.007 0.029 -0.029 0.015 -0.015
+70.0 60.0 80.0 1.27 0.009 -0.009 0.041 -0.041 0.019 -0.019
+90.0 80.0 100.0 1.118 0.017 -0.017 0.04 -0.04 0.018 -0.018
+

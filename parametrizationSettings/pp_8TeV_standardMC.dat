@@ -1,0 +1,17 @@
+%particle   centrality  method  pt const rel sys(%) ptMin    ptMax    func    opt     par1    par1Low par1Up  par2        par2Low par2Up  par3        par3Low par3Up  par4    par4Low par4Up
+%NPion        MB          MCParam   -                    0.1     40.0    tcmpt  QNRME+   10 1 50      0.4 0.1 0.8   2.64 2.44 3.8   0.8 0.657 0.9   3.04 3.0 3.11  stop
+%Eta          MB          MCParam   -                    0.1     40.0    tcmpt  QNRME+   10 0.1 50    0.4 0.1 0.8   2.64 0.1 3.8    0.73 0.62 0.76  3.11 3.08 3.19 stop
+%CKaon        MB          MCParam    -                   0.1     40.0    tcmpt  QNRME+   10 0.1 50    0.4 0.1 0.8   2.64 0.1 3.8    0.73 0.62 0.77  3.11 2.9 3.19  stop
+%NKaonSubS    MB          MCParam    -                   0.1     40.0    tcmpt  QNRME+   10 0.1 50    0.4 0.1 0.8   2.64 0.1 3.8    0.73 0.62 0.77  3.11 2.9 3.19  stop
+%Lambda       MB          MCParam    -                   0.1     40.0    tcmpt  QNRME+   10 0.1 50    0.4 0.01 0.8  2.64 0.1 3.8    0.76 0.7 0.8    3.11 2.6 3.19  stop
+
+NPion        MB          MCParam   -                    0.     50.0    spline_p  QNRME+ 8 5 12    10 0 100    6 4 8 stop
+Eta          MB          MCParam   -                    0.     50.0    spline_p  QNRME+ 8 5 12    10 0 100    6 4 8 stop
+CKaon        MB          MCParam    -                   0.     50.0    spline_p  QNRME+ 8 5 12    10 0 100    6 4 8 stop
+NKaonSubS    MB          MCParam    -                   0.     50.0    spline_p  QNRME+ 8 5 12    5 0 8       6 4 8 stop
+Lambda       MB          MCParam    -                   0.     50.0    spline_p  QNRME+ 8 5 12    5 0 8       6 4 8 stop
+Omega        MB          MCParam    -                   0.     50.0    spline_p  QNRME+ 8 5 12    5 0 8       6 4 8 stop
+EtaPrime     MB          MCParam    -                   0.     50.0    spline_p  QNRME+ 8 5 12    5 0 8       6 4 8 stop
+NRho         MB          MCParam    -                   0.     50.0    spline_p  QNRME+ 8 5 12    5 0 8       6 4 8 stop
+Phi          MB          MCParam    -                   0.     50.0    spline_p  QNRME+ 8 5 12    5 0 8       6 4 8 stop
+

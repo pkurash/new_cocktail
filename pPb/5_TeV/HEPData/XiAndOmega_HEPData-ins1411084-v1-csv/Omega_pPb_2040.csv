@@ -1,0 +1,23 @@
+%: table_doi: 10.17182/hepdata.73011.v1/t11
+%: name: Table 11
+%: description: Omega pt spectrum in 20-40% multiplicity class.
+
+%: data_file: Table11.yaml
+%: keyword reactions: P PB -->  (OMEGA- + OMEGABAR+)/2 X
+%: keyword observables: D2N/DPT/DYRAP
+%: keyword phrases: Inclusive | Double Differential Distribution | Transverse Momentum Dependence | Rapidity Dependence
+%: keyword cmenergies: 5020.0
+%: RE   P PB --> (OMEGA- + OMEGABAR+)/2 X
+%: Multiplicity class [pct]   20.0-40.0
+%: YRAP(C=CM)   -0.5-0.0
+%: SQRT(S)/NUCLEON [GeV]   5020.0
+%'pt [GeV]' 'pt [GeV] LOW' 'pt [GeV] HIGH' '1/(2pi*pt*Nev) dN/(dy*dpt) [GeV$^{-2}$]' 'stat +' 'stat -' 'sys +' 'sys -'
+1.0 0.8 1.2 0.000425 3.9e-05 -3.9e-05 6e-05 -6e-05
+1.4 1.2 1.6 0.000288 1.5e-05 -1.5e-05 2.5e-05 -2.5e-05
+1.75 1.6 1.9 0.000198 1e-05 -1e-05 1.7e-05 -1.7e-05
+2.05 1.9 2.2 0.00014 7e-06 -7e-06 1.2e-05 -1.2e-05
+2.35 2.2 2.5 9.8e-05 5e-06 -5e-06 9e-06 -9e-06
+2.75 2.5 3.0 5.5e-05 3e-06 -3e-06 5e-06 -5e-06
+3.4 3.0 3.8 2.2e-05 1e-06 -1e-06 2e-06 -2e-06
+4.4 3.8 5.0 5.6e-06 3e-07 -3e-07 5e-07 -5e-07
+

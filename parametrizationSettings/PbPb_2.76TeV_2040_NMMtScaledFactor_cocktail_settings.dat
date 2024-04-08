@@ -1,0 +1,8 @@
+%particle   mtScaleFactor   mtScaleFactorUp     mtScaleFactorDown     particle    method  ratio           method
+111         -               -                   -                     NPion       PCM     stop
+221         0.46            0.473               0.447                 stop 
+333         -               -                   -                     Phi         -       stop
+113         -               -                   -                     NRho        -       stop
+310         -               -                   -                     NKaonSubS   -       stop
+3122        -               -                   -                     Lambda      -       stop
+2212        -               -                   -                     Proton      -       stop

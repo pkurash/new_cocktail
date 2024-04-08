@@ -1,0 +1,49 @@
+%particle   centrality	method  sys(%)    ptMin	  ptMax   func        opt     par0 Low Up   par1   Low  Up  par2   Low	Up  par3 Low Up	par4 Low Up par5 Low Up par6 Low Up par7 Low Up
+NPion       0005        PCM     0.09      0.4     16.0    doHag       QNRME+  stop
+Eta	    0005	PCM	0.09	  1.0	  12.0	  modkfuncpt  QNRME+  stop
+CPion       0005        -       -         0.1     20.0    doHag       QNRME+  stop
+CKaon       0005        -       -         0.2     20.0    doHag       QNRME+  stop
+Proton      0005        -       -         0.8     20.0    modkfunc    QNRME+  10686 -   -   0.77   -   -   0.139   -   -   5.92    -   -   49.03   -   -   59.7   -   -   0.007    -   -   73.3   -   -   28.8    -   - stop
+NKaonSubS   0005        -       -         0.3     20.0    modkfuncpt  QNRME+  3265.57  -   -   0.57  -   -   0.1829  -   -   683.834 -   -   1.5655    -   -   6.63    -   -   -909    -   -   2.528  -   -  11.44    -   -    stop
+NPion       0510        PCM     0.09      0.4     16.0    doHag       QNRME+  stop
+Eta	    0510	PCM	0.09	  1.0	  12.0	  modkfunc    QNRME+  stop
+CPion       0510        -       -         0.1     20.0    doHag       QNRME+  stop
+CKaon       0510        -       -         0.2     20.0    doHag       QNRME+  stop
+Proton      0510        -       -         0.8     20.0    qcdpt       QNRME+  16.8   -   -   7.19    -   -   -56.8   -   -   1.7 -   -   7.99    -   -   stop
+NKaonSubS   0510        -       -         0.3     20.0    modkfuncpt  QNRME+  3265.57   -   -   0.2726   -   -   0.2792  -   -   3509.26 -   -   0.7946   -   -   5.7   -   -   -2358.6   -   -   44.23   -   -   215.7   -   -  stop
+NPion       1020        PCM     0.09      0.4     16.0    doHag       QNRME+  stop
+Eta	    1020	PCM	0.09	  1.0	  12.0	  modkfunc    QNRME+  stop
+CPion       1020        -       -         0.1     20.0    doHag       QNRME+  stop
+CKaon       1020        -       -         0.2     20.0    modkfuncpt  QNRME+  stop
+Proton      1020        -       -         0.8     20.0    modkfunc    QNRME+  10686 -   -   0.77   -   -   0.139   -   -   5.92    -   -   49.03   -   -   59.7   -   -   0.007    -   -   73.3   -   -   28.8    -   - stop
+NKaonSubS   1020        -       -         0.3     20.0    modkfunc    QNRME+  3000  -   -   0.74    -   -   0.12    -   -   0.933   -   -   4.59    -   -   6.24    -   -   12.8    -   -   835 -   -   1137    -   -     stop
+NPion       2030        PCM     0.09      0.4     16.0    doHag       QNRME+  stop
+Eta	    2030	PCM	0.09	  1.0	  12.0	  modkfunc    QNRME+  stop
+CPion       2030        -       -         0.1     20.0    doHag       QNRME+  stop
+CKaon       2030        -       -         0.2     20.0    modkfuncpt  QNRME+  stop
+Proton      2030        -       -         0.8     20.0    modkfunc    QNRME+  10686 -   -   0.75   -   -   0.139   -   -   5.92    -   -   49.03   -   -   59.7   -   -   0.007    -   -   73.3   -   -   28.8    -   - stop
+NKaonSubS   2030        -       -         0.3     20.0    modkfuncpt  QNRME+  3000  -   -   0.74    -   -   0.12    -   -   0.933   -   -   4.59    -   -   6.24    -   -   12.8    -   -   835 -   -   1137    -   -     stop
+NPion       3040        PCM     0.09      0.4     16.0    doHag       QNRME+  stop
+Eta	    3040	PCM	0.09	  1.0	  12.0	  modkfunc    QNRME+  stop
+CPion       3040        -       -         0.1     20.0    doHag       QNRME+  stop
+CKaon       3040        -       -         0.2     20.0    doHag       QNRME+  stop
+Proton      3040        -       -         0.8     20.0    modkfunc    QNRME+  10686 -   -   0.77   -   -   0.139   -   -   5.92    -   -   49.03   -   -   59.7   -   -   0.007    -   -   73.3   -   -   28.8    -   - stop
+NKaonSubS   3040        -       -         0.3     20.0    modkfuncpt  QNRME+  3000  -   -   0.74    -   -   0.12    -   -   0.933   -   -   4.59    -   -   6.24    -   -   12.8    -   -   835 -   -   1137    -   -     stop
+NPion       4060        PCM     0.09      0.4     16.0    doHag       QNRME+  stop
+Eta	    4060	PCM	0.09	  2.0	  12.0	  modkfuncpt  QNRME+  stop
+CPion       4060        -       -         0.1     20.0    doHag       QNRME+  stop
+CKaon       4060        -       -         0.2     20.0    doHag       QNRME+  stop
+Proton      4060        -       -         0.8     20.0    modkfuncpt  QNRME+  3000  -   -   0.74    -   -   0.12    -   -   0.933   -   -   4.59    -   -   6.24    -   -   12.8    -   -   835 -   -   1137    -   -     stop
+NKaonSubS   4060        -       -         0.3     20.0    modkfunc    QNRME+  3000  -   -   0.74    -   -   0.12    -   -   0.933   -   -   4.59    -   -   6.24    -   -   12.8    -   -   835 -   -   1137    -   -     stop
+NPion       6080        PCM     0.09      0.4     16.0    doHag       QNRME+  stop
+Eta	    6080	PCM	0.09	  1.0	  12.0	  modkfunc    QNRME+  stop
+CPion       6080        -       -         0.1     20.0    doHag       QNRME+  stop
+CKaon       6080        -       -         0.2     20.0    modkfuncpt  QNRME+  stop
+Proton      6080        -       -         0.8     20.0    modkfunc    QNRME+  3000  -   -   0.74    -   -   0.12    -   -   0.933   -   -   4.59    -   -   6.24    -   -   12.8    -   -   835 -   -   1137    -   -     stop
+NKaonSubS   6080        -       -         0.3     20.0    modkfunc    QNRME+  -473    -   -   -0.25   -   -   0.17    -   -   25.3    -   -   3.6 -   -   10.7    -   -   1.37    -   -   1   -   -   4   -   -    stop
+NPion       8090        PCM     0.09      0.4     16.0    oHag        QNRME+  stop
+Eta	    8090	PCM	0.09	  1.0	  12.0	  oHag        QNRME+  stop
+CPion       8090        -       -         0.1     20.0    doHag       QNRME+  stop
+CKaon       8090        -       -         0.2     20.0    doHag       QNRME+  stop
+Proton      8090        -       -         0.8     20.0    modkfunc    QNRME+  3000  -   -   0.74    -   -   0.12    -   -   0.933   -   -   4.59    -   -   6.24    -   -   12.8    -   -   835 -   -   1137    -   -     stop
+NKaonSubS   8090        -       -         0.3     20.0    modkfuncpt  QNRME+  3000  -   -   0.74    -   -   0.12    -   -   0.933   -   -   4.59    -   -   6.24    -   -   12.8    -   -   835 -   -   1137    -   -     stop

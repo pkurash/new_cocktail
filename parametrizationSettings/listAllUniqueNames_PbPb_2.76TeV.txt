@@ -1,0 +1,7 @@
+NMSpectraComb   1
+NMSpectraPCM    0
+NMMtScaledComb  0
+NMMtScaledPCM   0
+NMMtScaledVar   1
+%default    0
+NMMtScaledFactor   0

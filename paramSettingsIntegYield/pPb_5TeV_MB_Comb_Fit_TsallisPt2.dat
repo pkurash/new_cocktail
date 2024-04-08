@@ -1,0 +1,14 @@
+%particle   centrality  method      ToBeFitted  pt const rel sys(%) ptMin   ptMax   ptMinData   ptMaxData   ptMinInteg   ptMaxInteg     func    opt     par1    par1Low par1Up  par2    par2Low par2Up  par3    par3Low par3Up  par4    par4Low par4Up   par5    par5Low par5Up
+%NPion       NSD          Comb       Stat    -                   0.3     20.0    0.4         20.0        0            40             tmpt  QNRME+  stop
+%Eta         NSD          Comb       Stat    -                   0.7     20.0    0.7         20.0        0            40             tmpt  QNRME+  stop
+%Proton      NSD          -          Stat    -                   0.3     3.0     0.3         20.0        0            40             tmpt  QNRME+  2   -   - 7 -   - 0.4 -   -  stop
+%NKaonSubS   NSD          -          Stat    -                   0.3     20.0    0.3         20.0        0            40             tmpt  QNRME+  stop
+%Lambda      NSD          -          Stat    -                   0.5     16.0    0.5         16.0        0            40             tmpt  QNRME+  stop
+%CPion       NSD          -           Sys     -                   0.1     5.0     0.1         20.0        0            40             tmpt  NRME+  60   20   90 7.0  6.0  7.2    0.140 0.135   0.141  stop
+CKaon       NSD          -          Stat    -                   0.2     3.0     0.2         20.0        0            40             tmpt  QNRME+  10   -   - 7  6.5  7.5    0.258 -   -  stop
+Phi         NSD          -          Stat    -                   0.4     8.0    0.4         21.0        0            40             tmpt  QNRME+   2   -   - 7 -   - 0.4 -   -  stop
+NKaonStar   NSD          -          Stat    -                   0.0     15.0    0.0         15.0        0            40             tmpt  QNRME+  stop
+%CXi         NSD          -          Stat    -                   0.6     8.0     0.6         8.0         0            40             tmpt  QNRME+  stop
+%COmega      NSD          -          Stat    -                   1.0     6.0     1.0         6.0         0            40             tmpt  QNRME+  stop
+CSigmaStar   NSD          -         Stat    -                   1.0     6.0     1.0         6.0        0            40             tmpt  NRME+  stop
+NXiStar      NSD          -         Stat    -                   0.8     8.0     0.8         8.0        0            40             tmpt  NRME+  stop

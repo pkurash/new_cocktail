@@ -1,0 +1,14 @@
+#: table_doi: 10.17182/hepdata.77971.v1/t17
+#: name: Table 17
+#: description: Integrated yield ratio.
+
+#: data_file: Table17.yaml
+#: keyword reactions: P PB --> SIGMA(1385)+ X | P PB --> SIGMA(1385)- X | P PB --> SIGMABAR(1385)- X | P PB --> SIGMABAR(1385)+ X | P PB --> PI+ X
+#: keyword observables: RATIO
+#: SQRT(S)/NUCLEON,,,5020 GeV
+#: RE,,,P PB --> SIGMA(1385)+ X
+'$\langle\rm{d}N_{\rm{ch}}/\rm{d}\eta_{\rm{lab}}\rangle$','$\langle\rm{d}N_{\rm{ch}}/\rm{d}\eta_{\rm{lab}}\rangle$ LOW','$\langle\rm{d}N_{\rm{ch}}/\rm{d}\eta_{\rm{lab}}\rangle$ HIGH','($\Sigma^{*\pm}+\overline{\Sigma}^{*\mp})/2(\pi^{+}+\pi^{-})$','stat +','stat -','sys +','sys -'
+7.1,6.9,7.3,0.0044,0.0001,-0.0001,0.0008,-0.0008
+19.7,19.2,20.2,0.0056,0.0001,-0.0001,0.0007,-0.0007
+35.599999999999994,34.8,36.4,0.0056,0.0001,-0.0001,0.0006,-0.0006
+

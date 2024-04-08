@@ -1,0 +1,14 @@
+%Path: /HepData/8326/d1-x1-y1
+%Double differential J/PSI cross section from the di-electron channel as a function of transverse  momentum, the first error is statistical, the first systematic error is  the correlated one, the second is the non-correlated one. The last four columns are the errors   considering.  a +1 polarization in the Collins-Soper frame,  a -1 polarization in the Collins-Soper frame,  a +1 polarization in the Helicity frame and   a -1 polarization in the Helicity frame, respectively
+%Location: T 2, P 14
+%ABS(YRAP) : <0.9
+%RE : P P --> J/PSI X
+%SQRT(S) : 7000.0 GeV
+%x : PT IN GEV
+%y : D2(SIG)/DPT/DYRAP IN MUB/GEV : SYS(+1,CS) : SYS(-1,CS) : SYS(+1,SH) : SYS(-1,SH)
+%xdesc	x	xlow	xhigh	y	dy+	dy- (stat)	dy+	dy- (sys_correlated)	dy+	dy- (sys_uncorrelated)	y	y	y	y
+	0.5	0.0	1.0	0.68	+0.24	-0.24	+0.02	-0.02	+0.21	-0.21	0.16	-0.18	0.08	-0.12
+	1.5	1.0	2.0	1.87	+0.37	-0.37	+0.07	-0.07	+0.31	-0.31	0.42	-0.5	0.28	-0.39
+	2.5	2.0	3.0	1.89	+0.31	-0.31	+0.08	-0.08	+0.23	-0.23	0.33	-0.43	0.35	-0.44
+	4.0	3.0	5.0	0.72	+0.13	-0.13	+0.02	-0.02	+0.09	-0.09	0.06	-0.08	0.16	-0.13
+	6.0	5.0	7.0	0.4	+0.07	-0.07	+0.01	-0.01	+0.05	-0.05	0.001	-0.005	0.06	-0.08

@@ -1,0 +1,112 @@
+%particle  centrality  method  pt  const  rel  sys(%)  ptMin  ptMax  func  opt  par1  par1Low  par1Up  par2  par2Low  par2Up  par3  par3Low  par3Up  par4  par4Low  par4Up
+
+%particle   centrality  method      pt const rel sys(%) ptMin   ptMax   func    opt     par1    par1Low par1Up  par2    par2Low par2Up  par3    par3Low par3Up  par4    par4Low par4Up
+NPion       MB          PCM         9.0                 0.4     16.0    oHagPt  QINRME+  596    -     -     0.2     0.1     0.5     0.128   0.0     0.5     0.57    0.3     0.8     6.16     5.5    7.5  stop
+NPion       MB          PCMEMCal    6.18                0.8     20.0    oHagPt  QINRME+  596    -     -     0.2     0.1     0.5     0.128   0.0     0.5     0.57    0.3     0.8     6.16     5.5    7.5  stop
+NPion       MB          PCMPHOS     5.14                0.6     12.0    oHagPt  QINRME+  596    -     -     0.2     0.1     0.5     0.128   0.0     0.5     0.57    0.3     0.8     6.16     5.5    7.5  stop
+NPion       MB          EMCal       4.24                1.4     16.0    oHagPt  QINRME+  596    -     -     0.2     0.1     0.5     0.128   0.0     0.5     0.57    0.3     0.8     6.16     5.5    7.5  stop
+NPion       MB          PHOS        -                   1.0     20.0    oHagPt  QINRME+  596    -     -     0.2     0.1     0.5     0.128   0.0     0.5     0.57    0.3     0.8     6.16     5.5    7.5  stop
+NPion       MB          Dalitz      -                   0.6     10.0    oHagPt  QINRME+  596    -     -     0.2     0.1     0.5     0.128   0.0     0.5     0.57    0.3     0.8     6.16     5.5    7.5  stop
+NPion       MB          Comb        4.0                   0.4     20.0    oHagPt  QINRME+  596    -     -     0.2     0.1     0.5     0.128   0.0     0.5     0.57    0.3     0.8     6.16     5.5    7.5  stop
+Eta         MB          PCM         9.0                 0.7     10.0    oHagPt  QINRME+  29    0.9 40.5     0.24    0.1 0.5     0  -  -   0.95  0.7  1.2        6.3     5.5  7.5 stop
+Eta         MB          PCMEMCal    6.18                1.1     16.0    oHagPt  QINRME+  29    1.3 40.5     0.24    0.1 0.5     0  -  -   0.95  0.7  1.2        6.3     5.5  7.5 stop
+Eta         MB          PCMPHOS     5.14                1.1     6.0     oHagPt  QINRME+  29    1.3 40.5     0.24    0.1 0.5     0  -  -   0.95  0.7  1.2        6.3     5.5  7.5 stop
+Eta         MB          EMCal       4.24                2.2     20.0    oHagPt  QINRME+  29    1.3 40.5     0.24    0.1 0.5     0  -  -   0.95  0.7  1.2        6.3     5.5  7.5 stop
+Eta         MB          Comb        4.0                 0.7     20.0    oHagPt  QINRME+  29    1.3 40.5     0.24    0.1 0.5     0  -  -   0.95  0.7  1.2        6.3     5.5  7.5 stop
+CKaon       MB          -       2.0                   0.4     20.0    oHagPt  QNRME+  stop
+CPion       MB          -       2.0                   0.4     20.0    oHagPt  QNRME+  stop
+Proton      MB          -       2.0                   0.3     5.0    oHagPt  QINRME+  1.2     0.8       1.5       0.5         0.3       0.7       0           -       -       1.5         1.0       2       8.2    5.5 9.0 stop
+NKaonSubS   MB          -       -                   0.8     8.0     oHagPt  QNRME+  stop
+Lambda      MB          -       -                   0.7     10.0     oHagPt  QNRME+  stop
+Phi         MB          -       3.0                   1.0     21.0    oHagPt  QNIRME+  2.2     -       -       0.8         -       -       0           -       -       0.8         -       -       5.5    4.0 8.0 stop
+NKaonStar   MB          -       3.0                   0.0     15.0    oHagPt  QNRME+  2.2     -       -       0.8         -       -       0           -       -       0.8         -       -       5.5    4.0 8.0 stop
+NXiStar     MB          -       5.0                   0.8     8.0    oHagPt  QNRME+  2.2     -       -       0.8         -       -       0           -       -       0.8         -       -       5.5    4.0 8.0 stop
+CSigmaStar   MB          -       -                   1.0     6.0    oHagPt  QNRME+  2.2     -       -       0.8         -       -       0           -       -       0.8         -       -       5.5    4.0 8.0 stop
+
+% other options
+%Phi         MB          -       3.0                   0.8     21.0    tmpt  QINRME+   0.87   0.5   1.2     8.2     5.5   9     0.375 -   -  stop
+%COmega      MB          -       -                   1.0     6.0     oHagPt  QNRME+  stop
+%CKaon       MB          -       2.0                   0.8     20.0    tmpt  QNRME+  10   -   - 7  5.5  8.0    0.258 -   -  stop
+%CPion       MB          -       2.0                   0.4     20.0    tmpt  NRME+  60   20   120 7.0  6.0  7.2    0.140 0.135   0.141  stop
+%CXi         MB          -       5.0                   0.6     8.0     oHagPt  QNRME+  stop
+
+%  0-5%  parametrisations
+CPion       0005  -  2.0    0.35    20.0    oHagPt  QNRME+   558  -  -  0.28 -   - 0.18 - - 0.7 -  -   6.2  4.0  8.5  stop
+CKaon       0005  -  -      0.2     20.0    oHagPt  QNRME+   12  -  -  0.63 -   - 0  0 0.5 1.1 -  -   6.3  4.0  8.5  stop
+Proton      0005  -  -      0.3     20.0    oHagPt  QNRME+   1.65 -  -  0.5  -  -  0.01 0 0.5 1.9  -  - 7.2  5.0  8.5  stop
+NKaonSubS   0005  -  -      0.0     8.0     oHagPt  QNRME+   12  -  -  0.63 -   - 0  0 0.5 1.1 -  -   6.3  4.0  8.5  stop
+Lambda      0005  -  -      0.3     20.0    oHagPt  QNRME+   0.6  -  -  0.6  -  -  0  0 0 2.0  -  -  6.3  4.0  8.5  stop
+Phi         0005  -  3.0    0.5     16.0    oHagPt  QNRME+   0.65 -  -  0.4  -  -  0.1 -  -  1.6  -  -  6.1  4.0  8.0  stop
+
+%  0-10%  parametrisations
+CPion       0010  -  2.0    0.35    20.0    oHagPt  QNRME+   520  -  -  0.28 -   - 0.18 - - 0.7 -  -   6.1  4.0  8.5  stop
+CKaon       0010  -  -      0.2     20.0    oHagPt  QNRME+   11  -  -  0.63 -   - 0  0 0.5 1.1 -  -   6.3  4.0  8.5  stop
+Proton      0010  -  -      0.3     20.0    oHagPt  QNRME+   1.55  1.3  1.7  0.5  0.3  0.7  0 0 0  1.9  1.7  1.6  7.6  7.0  8.5  stop
+NKaonSubS   0010  -  -      0.0     8.0     oHagPt  QNRME+   11  -  -  0.63 -   - 0  0 0.5 1.1 -  -   6.3  4.0  8.5  stop
+Lambda      0010  -  -      0.3     20.0    oHagPt  QNRME+   0.6  -  -  0.6  -  -  0  0 0   2.0  -  -  6.3  4.0  8.5  stop
+Phi         0010  -  3.0    0.5     16.0    oHagPt  QNRME+   0.6  0.4  0.7  0.4  -  -  0.1 -  -  1.65  -  -  6.1  4.0  8.0  stop
+
+%  5-10%  parametrisations
+CPion       0510  -  2.0    0.35    20.0    oHagPt  QNRME+   470  -  -  0.29 -   - 0.15  0 0.5 0.7 -  -   6.1  4.0  8.5  stop
+CKaon       0510  -  -      0.2     20.0    oHagPt  QNRME+   10  -  -  0.64 -   - 0  0 0.5 1.1 -  -   6.1  4.0  8.5  stop
+Proton      0510  -  -      0.3     20.0    oHagPt  QNRME+   1.45  -  -  0.5  -  - 0.01  0 0.5  1.9  -  -  7.2  5.0  7.9  stop
+NKaonSubS   0510  -  -      0.0     8.0     oHagPt  QNRME+   100  -  -  0.63 -   - 0  0 0.5 1.1 -  -   6.1  5.5  7.0  stop
+Lambda      0510  -  -      0.3     20.0    oHagPt  QNRME+   0.53  -  -  0.6  -  -  0  0 0   2.0  -  -  6.3  4.0  8.5  stop
+Phi         0510  -  3.0    0.5     16.0    oHagPt  QNRME+   0.27  0.1  0.7  0.4  -  -  0.1 -  -  1.8  -  -  6.2  4.0  8.0  stop
+
+%  10-20%  parametrisations
+CPion       1020  -  2.0    0.35    20.0    oHagPt  QNRME+   410  -  -  0.29 -   - 0.15  0 0.5 0.7 -  -   6.2  6.12  8.5  stop
+CKaon       1020  -  -      0.2     20.0    oHagPt  QNRME+   9  -  -  0.65 -   - 0  0 0.5 1.1 -  -   6.1  4.0  8.5  stop
+Proton      1020  -  -      0.3     20.0    oHagPt  QNRME+   1.37  -  -  0.5  -  - 0  0 0  1.9  -  -  7.0  7.5  8.0  stop
+NKaonSubS   1020  -  -      0.0     8.0     oHagPt  QNRME+   9  -  -  0.65 -   - 0  0 0.5 1.1 -  -   6.1  5.5  7.0  stop
+Lambda      1020  -  -      0.3     20.0    oHagPt  QNRME+   0.47  -  -  0.6  -  -  0  0 0   2.0  -  -  6.3  4.0  8.5  stop
+Phi         1020  -  3.0    0.5     16.0    oHagPt  QNRME+   0.21  0.18  0.3  0.4  0.3  0.7  0.1 -  -  1.8  -  -  6.0  5.0  7.0  stop
+
+%  0-20%  parametrisations
+CPion       0020  -  2.0    0.35    20.0    oHagPt  QNRME+   465  -  -  0.29 -   - 0.15  0 0.5 0.7 -  -   6.0  5.9  6.1  stop
+CKaon       0020  -  -      0.2     20.0    oHagPt  QNRME+   10  -  -  0.64 -   - 0  0 0.5 1.1 -  -   6.1  4.0  8.5  stop
+Proton      0020  -  -      0.3     20.0    oHagPt  QNRME+   1.45  -  -  0.5  -  - 0  0 0  1.9  -  -  6.9  5.0  8.0  stop
+NKaonSubS   0020  -  -      0.0     8.0     oHagPt  QNRME+   10  -  -  0.64 -   - 0  0 0.5 1.1 -  -   6.1  5.5  7.0  stop
+Lambda      0020  -  -      0.3     20.0    oHagPt  QNRME+   0.51  -  -  0.6  -  -  0  0 0   2.0  -  -  6.3  4.0  8.5  stop
+Phi         0020  -  3.0    0.5     16.0    oHagPt  QNRME+   0.64  0.18  0.7  0.4  0.3  0.7  0.1 -  -  1.8  -  -  6.2  4.0  8.0  stop
+
+%  20-40%  parametrisations
+CPion       2040  -  2.0    0.35    20.0    oHagPt  QNRME+   345  -  -  0.29 -   - 0.15  0 0.5 0.6 -  -   6.15  6.12  6.25  stop
+CKaon       2040  -  -      0.2     20.0    oHagPt  QNRME+   7.5  -  -  0.64 -   - 0  0 0.5 1.1 -  -   6.1  5.90  6.3  stop
+Proton      2040  -  -      0.3     20.0    oHagPt  QNRME+   1.25  -  -  0.5  -  - 0  0 0  1.9  -  -  7.5  6.5  8.2  stop
+NKaonSubS   2040  -  -      0.0     8.0     oHagPt  QNRME+   7.5  -  -  0.64 -   - 0  0 0.5 1.1 -  -   6.1  6.0  7.2  stop
+Lambda      2040  -  -      0.3     20.0    oHagPt  QNRME+   0.45  -  -  0.6  -  -  0  0 0   2.0  -  -  7.3  6.0  8.5  stop
+Phi         2040  -  3.0    0.5     16.0    oHagPt  QNRME+   0.20  0.01  0.3  0.4  0.3  0.7  0.1 -  -  1.8  -  -  6.2  4.0  8.0  stop
+
+%  40-60%  parametrisations
+CPion       4060  -  2.0    0.35    20.0    oHagPt  QNRME+   266  -  -  0.29 -   - 0.15  0 0.5 0.6 -  -   6.1  6.06  6.25  stop
+CKaon       4060  -  -      0.2     20.0    oHagPt  QNRME+   6.5  -  -  0.64 -   - 0  0 0.5 1.1 -  -   6.1  6.05  6.3  stop
+Proton      4060  -  -      0.3     20.0    oHagPt  QNRME+   1.0  -  -  0.5  -  - 0  0 0  1.9  -  -  7.5  6.5  8.2  stop
+NKaonSubS   4060  -  -      0.0     8.0     oHagPt  QNRME+   6.5  -  -  0.64 -   - 0  0 0.5 1.1 -  -   6.1  5.85  7.2  stop
+Lambda      4060  -  -      0.3     20.0    oHagPt  QNRME+   0.4  -  -  0.6  -  -  0  0 0   2.0  -  -  7.3  6.0  8.5  stop
+Phi         4060  -  3.0    0.5     16.0    oHagPt  QNRME+   0.2  0.01  0.4  0.58  0.3  0.9  0.1 0  0.5  1.5  1.0  2.5  6.0  5.5  6.6  stop
+
+%  60-80%  parametrisations
+CPion       6080  -  2.0    0.35    20.0    oHagPt  QNRME+   196  -  -  0.29 -   - 0.15  0 0.5 0.6 -  -   6.1  6.00  6.25  stop
+CKaon       6080  -  -      0.2     20.0    oHagPt  QNRME+   4.8  -  -  0.64 -   - 0  0 0.5 1.1 -  -   6.1  5.90  6.3  stop
+Proton      6080  -  -      0.3     20.0    oHagPt  QNRME+   0.8  -  -  0.5  -  - 0  0 0  1.9  -  -  7.5  6.5  8.2  stop
+NKaonSubS   6080  -  -      0.0     8.0     oHagPt  QNRME+   4.8  -  -  0.64 -   - 0  0 0.5 1.1 -  -   6.1  5.85  7.2  stop
+Lambda      6080  -  -      0.3     20.0    oHagPt  QNRME+   0.35  -  -  0.6  -  -  0  0 0   2.0  -  -  7.3  6.0  8.5  stop
+Phi         6080  -  3.0    0.5     16.0    oHagPt  QNRME+   0.08  0.001  0.4  0.58  0.3  0.9  0 0  0  1.5  1.0  2.5  6.0  5.9  6.6  stop
+
+%  60-100%  parametrisations
+CPion       60100  -  2.0    0.35    20.0    oHagPt  QNRME+   150  -  -  0.29 -   - 0.11  0.0 0.5 0.6 -  -   6.1  6.00  6.25  stop
+CKaon       60100  -  -      0.2     20.0    oHagPt  QNRME+   3.8  -  -  0.64 -   - 0  0 0.5 1.1 -  -   6.1  5.70  6.3  stop
+Proton      60100  -  -      0.3     20.0    oHagPt  QNRME+   0.6  -  -  0.5  -  - 0  0 0  1.9  -  -  7.5  6.5  8.2  stop
+NKaonSubS   60100  -  -      0.0     8.0     oHagPt  QNRME+   3.8  -  -  0.64 -   - 0  0 0.5 1.1 -  -   6.1  5.70  7.2  stop
+Lambda      60100  -  -      0.3     20.0    oHagPt  QNRME+   0.28  -  -  0.6  -  -  0  0 0   2.0  -  -  7.3  6.0  8.5  stop
+Phi         60100  -  3.0    0.5     16.0    oHagPt  QNRME+   0.1  0.001  0.4  0.58  0.3  0.9  0 0  0  1.5  1.0  2.5  6.0  5.9  6.6  stop
+
+%  80-100%  parametrisations
+CPion       80100  -  2.0    0.25    20.0    tmpt  QNRME+   stop
+CKaon       80100  -  -      0.2     13.0    tmpt  QNRME+   stop
+Proton      80100  -  -      0.3     10.0    tmpt  QNRME+   stop
+NKaonSubS   80100  -  -      0.0     8.0     tmpt  QNRME+   stop
+Lambda      80100  -  -      0.3     20.0    tmpt  QNRME+  stop
+Phi         80100  -  3.0    0.5     16.0    tmpt  QNRME+  stop
+

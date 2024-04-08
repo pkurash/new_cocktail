@@ -1,0 +1,15 @@
+#: table_doi: 10.17182/hepdata.77971.v1/t12
+#: name: Table 12
+#: description: Mean $p_{\rm T}$ of $\Sigma^{*\pm}$ in p-Pb collisions with centre-of-mass energy/nucleon=5.02 TeV for each V0A multiplicity event class.
+
+#: data_file: Table12.yaml
+#: keyword reactions: P PB --> SIGMA(1385)+ X | P PB --> SIGMA(1385)- X | P PB --> SIGMABAR(1385)- X | P PB --> SIGMABAR(1385)+ X
+#: keyword observables: DN/DETARAP
+#: SQRT(S)/NUCLEON,5020 GeV
+#: RE,P PB --> SIGMA(1385)+ X,,,,,,
+'Multiplicity class (%)','$\langle p_{\rm{T}} \rangle$ [GeV/c]','stat +','stat -','sys +','sys -'
+'0-100',1.367,0.009,-0.009,0.061,-0.061
+'0-20',1.495,0.012,-0.012,0.046,-0.046
+'20-60',1.342,0.01,-0.01,0.055,-0.055
+'60-100',1.173,0.015,-0.015,0.067,-0.067
+

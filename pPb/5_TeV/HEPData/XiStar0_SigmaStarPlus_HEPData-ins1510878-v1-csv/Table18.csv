@@ -1,0 +1,15 @@
+#: table_doi: 10.17182/hepdata.77971.v1/t18
+#: name: Table 18
+#: description: Integrated yield ratio.
+
+#: data_file: Table18.yaml
+#: keyword reactions: P PB --> XI(1530)0 X | P PB --> XIBAR(1530)0 X | P PB --> XI- X
+#: keyword observables: RATIO
+#: SQRT(S)/NUCLEON,,,5020 GeV
+#: RE,,,P PB --> XI(1530)0 X
+'$\langle\rm{d}N_{\rm{ch}}/\rm{d}\eta_{\rm{lab}}\rangle$','$\langle\rm{d}N_{\rm{ch}}/\rm{d}\eta_{\rm{lab}}\rangle$ LOW','$\langle\rm{d}N_{\rm{ch}}/\rm{d}\eta_{\rm{lab}}\rangle$ HIGH','($\Xi^{*0}+\overline{\Xi}^{*0})/(\pi^{+}+\pi^{-})$','stat +','stat -','sys +','sys -'
+7.1,6.9,7.3,0.00105,3e-05,-3e-05,0.00015,-0.00015
+16.1,15.7,16.5,0.0014,4e-05,-4e-05,0.00022,-0.00022
+23.2,22.7,23.7,0.00163,5e-05,-5e-05,0.00023,-0.00023
+35.599999999999994,34.8,36.4,0.00168,4e-05,-4e-05,0.00019,-0.00019
+

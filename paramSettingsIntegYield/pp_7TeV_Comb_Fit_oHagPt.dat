@@ -1,0 +1,15 @@
+%particle   centrality  method   ToBeFitted   pt const rel sys(%) ptMin   ptMax   ptMinData   ptMaxData   ptMinInteg   ptMaxInteg     func    opt     par1    par1Low par1Up  par2    par2Low par2Up  par3    par3Low par3Up  par4    par4Low par4Up   par5    par5Low par5Up
+NPion       MB          Comb     Stat   -                   0.3     25.0    0.3         25.0        0            40             oHagPt  QNRME+  stop
+Eta         MB          Comb     Stat   -                   0.4     14.0    0.4         14.0        0            40             oHagPt  QNRME+  2.2     1       4       0.6         0.4       1       0           -       -       0.8         0.4       1.2       5.5    5.0 7.0 stop
+Proton      MB          -        Stat   -                   0.3     20.0    0.3         20.0        0            40             oHagPt  QNRME+   stop
+NKaonSubS   MB          -        Stat   -                   0.0     15.0    0.0         15.0        0            40             oHagPt  QNRME+  stop
+NKaonStar   MB          -        Stat   -                   0.0     6.0    0.0         6.0        0            40             oHagPt  QNRME+  2.2     -       -       0.6         -       -       0           -       -       0.8         -       -       5.5    - - stop
+Lambda      MB          -        Stat   -                   0.4     10.0    0.4         10.0        0            40             oHagPt  QNRME+  stop
+CKaon       MB          -        Sys   -                   0.2     20.0    0.2         20.0        0            40             oHagPt  QNRME+  stop
+CPion       MB          -        Stat   -                   0.1     20.0    0.1         20.0        0            40             oHagPt  QNRME+  stop
+%Omega        MB          -      Stat     -                   1.0     17.0    2.0         17.0        0            40             oHagPt  QNRME+  stop
+%COmega       MB          -       Stat    -                   0.1      5.0    0.8          5.0        0            40             oHagPt  QNRME+  2.2     -       -       0.6         -       -       0           -       -       0.8         -       -       5.5    - - stop
+Phi          MB          Comb    Stat    -                   0.4      6.0    0.4          6.0        0            40             oHagPt  QNRME+  stop
+CXi          MB          -       Stat    -                   0.6      8.5    0.6          8.5        0            40             oHagPt  QNRME+  2.2     -       -       0.6         -       -       0           -       -       0.8         -       -       5.5    - - stop
+%CSigma       MB          -      Stat     -                   0.7      6.0    0.7          6.0        0            40             oHagPt  QNRME+    stop DOES NOT WORK TOGHETHER WITH THE OTHERS
+%JPsi         MB          -      Stat     -                   0.0      7.0    0.0          7.0        0            40             oHagPt  QNRME+  stop DOES NOT WORK

@@ -1,0 +1,6 @@
+Comb	1
+PCM	1
+PCMEMCal	1
+EMCal	1
+PHOS	0
+Dalitz	0

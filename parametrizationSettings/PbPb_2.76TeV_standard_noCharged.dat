@@ -1,0 +1,68 @@
+%particle	centrality	method	ptMin	ptMax	func	  opt    par1	par1Low	par1Up	par2	par2Low	par2Up	par3	par3Low	par3Up	par4	par4Low	par4Up	par5	par5Low	par5Up	par6	par6Low	par6Up
+NPion       0005        Comb    1.0     14.0    oHagPt  QNRME+ 55229   -   -   -0.16   -   -   0.7 -   -   0.55    -   -   6.67    -   - stop
+NPion       0005        PCM     1.0     14.0    oHagPt  QNRME+    stop
+NPion       0005        PHOS    1.0     14.0    oHagPt  QNRME+  stop
+Eta         0005        PCM     1.0     10.0    oHagPt  QNRME+  250309    -   -   -0.879  -   -   0.56    -   -   0.28    -   -   6.09    -   -    stop
+Proton      0005        -       0.3     20.0    doHagPt QNRME+  23 -   -   0.46    -   -   0.078    -   -   2.17    -   -   9.6    -   -   1316  -   -   7.7 -   -   6.45    4.   8.       stop
+Phi         0005        -       0.5     21.0    qcdpt   QNRME+  stop
+NKaonSubS   0005        -       0.3     12.0    oHagPt  QNRME+  stop
+Lambda      0005        -       0.6     12.0    oHagPt  QNRME+  stop
+NPion       0510        Comb    1.0     14.0    oHagPt  QNRME+  3231   -   -   0.37    -   -   0.58    -   -   0.81    -   -   6.4 -   -   stop
+NPion       0510        PCM     1.0     14.0    oHagPt  QNRME+ 3231   -   -   0.37    -   -   0.58    -   -   0.81    -   -   6.4 -   -   stop
+NPion       0510        PHOS    1.0     14.0    oHagPt  QNRME+  stop
+Eta         0510        PCM     1.0     10.0    oHagPt  QNRME+  236   -   -   0.24    -   -   0.35    -   -   1.25    -   -   6.95    -   -       stop
+Proton      0510        -       0.3     20.0    doHagPt QNRME+ 23 -   -   0.46    -   -   0.078    -   -   2.17    -   -   9.6    -   -   1316  -   -   7.7 -   -   6.45    4.   8.       stop
+Phi         0510        -       0.5     21.0    qcdpt   QNRME+  stop
+NKaonSubS   0510        -       0.3     12.0    oHagPt  QNRME+  stop
+Lambda      0510        -       0.6     12.0    oHagPt  QNRME+  stop
+NPion       0010        Comb    1.0     20.0    qcd     QNRME+  205 -   -   4.8 -   -   -110    -   -   4.2 -   -   56.7    -   -     stop
+NPion       0010        PCM     1.0     14.0    oHagPt     QNRME+  25587    -   -   -0.11   -   -   0.81    -   -   0.6 -   -   6.5 -   -     stop
+NPion       0010        PHOS    1.0     14.0    oHagPt  QNRME+ stop
+NPion       0010        EMCal   4.0     20.0    oHagPt  QNRME+ 1625  -   -  0.3 -   -   0.83 -   -   0.68 -   -   5.89 -   -       stop
+Eta         0010        Comb    1.0     20.0    oHagPt  QNRME+ 10.79    -   -   1.14    -   -   0.33    -   -   1.7 -   -   6.3 -   -      stop
+Eta         0010        PCM     1.0     10.0    oHagPt  QNRME+  125169    -   -   -0.55  -   -   0.51    -   -   0.476    -   -   7.    -   -    stop
+Eta         0010        EMCal   4.0     20.0    oHagPt  QNRME+  91.6    -   -   6.46  -   -   -35221  -   -   1.03    -   -   5.9 -   -    stop
+Proton      0010        -       0.3     20.0    doHagPt QNRME+  32 -   -   0.44    -   -   0.09    -   -   2.1    -   -   9.4    -   -   1200  -   -   7.55 -   -   5.9 0.4 10    stop
+Phi         0010        -       0.5     21.0    qcdpt   QNRME+  stop
+NKaonSubS   0010        -       0.3     12.0    oHagPt  QNRME+  stop
+Lambda      0010        -       0.6     12.0    oHagPt  QNRME+  stop
+NPion       1020        Comb    0.4     14.0    oHagPt  QNRME+ stop
+NPion       1020        PCM     0.4     12.0    oHagPt  QNRME+ 923038  -   -  -0.5    -   -   0.71   -   -   0.41    -   -   6.68    -   -        stop
+NPion       1020        PHOS    1.0     14.0    oHagPt  QNRME+  stop
+Proton      1020        -       0.3     20.0    doHagPt QNRME+  21 -   -   0.47    -   -   0.08    -   -   2.08    -   -   9.2    -   -   670  -   -   7.38 -   -   6. 5.8 6.2    stop
+Phi         1020        -       0.5     21.0    qcdpt   QNRME+  stop
+NKaonSubS   1020        -       0.3     12.0    oHagPt  QNRME+  stop
+Lambda      1020        -       0.6     12.0    oHagPt  QNRME+  stop
+NRho        0020        -       0.5     11.0    oHagPt  QNRME+  stop
+NPion       2040        Comb    1.0     14.0    oHagPt  QNRME+  stop
+NPion       2040        PCM     1.0     14.0    oHagPt  QNRME+  13733 -   -   -0.007  -   -   0.626   -   -   0.544   -   -   6.23    -   -    stop
+NPion       2040        PHOS    1.0     14.0    oHagPt  QNRME+  stop
+Eta         2040        PCM     1.0     10.0    oHagPt  QNRME+  250309    -   -   -0.879  -   -   0.56    -   -   0.28    -   -   6.09    -   -    stop
+Proton      2040        -       0.3     20.0    doHagPt QNRME+  7.6 -   -   0.56    -   -   0.04    -   -   2.15    -   -   9.25    -   -   552  -   -   7.6 -   -   6.4 0.4 10    stop
+NKaonSubS   2040        -       0.3     12.0    oHagPt  QNRME+  stop
+Phi         2040        -       0.5     21.0    qcdpt   QNRME+  stop
+Lambda      2040        -       0.6     12.0    oHagPt  QNRME+  stop
+NRho        2040        -       0.5     11.0    oHagPt  QNRME+  stop
+NPion       2050        Comb    1.0     20.0    oHagPt  QNRME+ 25185    -   -   -0.21   -   -   0.72    -   -   0.46    -   -   6.17    -   -       stop
+NPion       2050        PCM     1.0     14.0    oHagPt  QNRME+ stop
+NPion       2050        EMCal   4.0     20.0    oHagPt  QNRME+ stop
+Eta         2050        Comb    1.0     20.0    oHagPt  QNRME+   565    -   -   14.8    -   -   -69302  -   -   0.71    -   -   6.05 -   -   stop
+Eta         2050        PCM     1.0     10.0    oHagPt  QNRME+  8.6   -   -   1.21    -   -   0.008   -   -   1.47    -   -   6.03    -   -     stop
+Eta         2050        EMCal   4.0     20.0    oHagPt  QNRME+  8.23   -   -   1.08    -   -   157   -   -   1.46    -   -   6.1    -   -     stop
+NPion       4060        Comb    0.4     14.0    oHag  QNRME+   384  -   -   0.66    -   -   -0.21   -   -   0.8 -   -   5.24 -   -      stop
+NPion       4060        PCM     0.4     12.0    oHagPt  QNRME+ 7553    -   -   0.32    -   -   0.188    -   -   0.565    -   -   6.45    -   -       stop
+NPion       4060        PHOS    1.0     14.0    oHagPt  QNRME+  1320    -   -   0.41    -   -   0.35    -   -   0.62    -   -   5.18    -   -       stop
+Proton      4060        -       0.3     20.0    doHagPt QNRME+  4.37 -   -   0.61    -   -   0.039    -   -   1.89    -   -   8.53    -   -   129  -   -   7.37 -   -   6.49 0.4 10    stop
+NKaonSubS   4060        -       0.3     12.0    oHagPt  QNRME+  stop
+Lambda      4060        -       0.6     12.0    oHagPt  QNRME+  stop
+NRho        4060        -       0.5     9.0     oHagPt  QNRME+  stop
+NPion       6080        Comb    0.4     12.0    oHagPt  QNRME+  58728 -   -   0.01    -   -   0.37    -   -   0.58    -   -   7.11     -   -   stop
+NPion       6080        PCM     0.4     12.0    qcd  QNRME+  6.32   -   -   4.59    -   -   -6.79   -   -   1.7    -   -   2.1 -   -    stop
+NPion       6080        PHOS    1.0     12.0    oHagPt  QNRME+  stop
+Proton      6080        -       0.3     20.0    doHagPt QNRME+  3.4 -   -   0.73    -   -   -0.2    -   -   1.18    -   -   5.9    -   -   35  -   -   7.2 -   -   2.7 0.4 10    stop
+Phi         6080        -       0.5     21.0    oHagPt  QNRME+  stop
+NKaonSubS   6080        -       0.3     12.0    oHagPt  QNRME+  stop
+Lambda      6080        -       0.6     12.0    xqcdpt  QNRME+  0.65    -   -   5.38    -   -   -465    -   -   3.86    -   -   123 -   -       stop
+NRho        6080        -       0.5     9.0     oHagPt  QNRME+  stop
+NKaonSubS   8090        -       0.3     10.0    oHagPt  QNRME+  10.9    -   -   0.55    -   -   0.007   -   -   0.86    -   -   6.4 -   -    stop
+Lambda      8090        -       0.6     8.0     oHagPt  QNRME+  1.27    -   -   0.39    -   -   -0.16   -   -   1.21    -   -   7.28    -   -       stop

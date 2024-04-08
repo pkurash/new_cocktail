@@ -1,0 +1,3 @@
+%particle   centrality  method   ToBeFitted   pt const rel sys(%) ptMin   ptMax   ptMinData   ptMaxData   ptMinInteg   ptMaxInteg     func    opt     par1    par1Low par1Up  par2    par2Low par2Up  par3    par3Low par3Up  par4    par4Low par4Up   par5    par5Low par5Up
+CSigma       MB          -       Stat    -                   0.7      6.0    0.7          6.0        0            40             oHagPt  QNRME+    stop
+%JPsi         MB          -      Stat     -                   0.0      7.0    0.0          7.0        0            40             oHagPt  QNRME+  stop DOES NOT WORK

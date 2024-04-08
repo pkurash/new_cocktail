@@ -1,0 +1,31 @@
+%: table_doi: 10.17182/hepdata.73011.v1/t6
+%: name: Table 6
+%: description: Xi pt spectrum in 60-80% multiplicity class.
+
+%: data_file: Table6.yaml
+%: keyword reactions: P PB --> XI- X | P PB --> XIBAR+ X
+%: keyword observables: D2N/DPT/DYRAP
+%: keyword phrases: Inclusive | Double Differential Distribution | Transverse Momentum Dependence | Rapidity Dependence
+%: keyword cmenergies: 5020.0
+%: RE			P PB --> (XI- + XIBAR+)/2 X
+%: Multiplicity class [pct]			60.0-80.0
+%: YRAP(C=CM)			-0.5-0.0
+%: SQRT(S)/NUCLEON [GeV]			5020.0
+%'pt [GeV]'	'pt [GeV] LOW'	'pt [GeV] HIGH'	'1/(2pi*pt*Nev) dN/(dy*dpt) [GeV$^{-2}$]'	'stat +'	'stat -'	'sys +'	'sys -'
+0.7	0.6	0.8	0.002643	0.000136	-0.000136	0.000198	-0.000198
+0.8500000000000001	0.8	0.9	0.002254	0.000101	-0.000101	0.000156	-0.000156
+0.95	0.9	1.0	0.002019	7.9e-05	-7.9e-05	0.000124	-0.000124
+1.05	1.0	1.1	0.001778	6e-05	-6e-05	0.000107	-0.000107
+1.15	1.1	1.2	0.001521	4.8e-05	-4.8e-05	8.7e-05	-8.7e-05
+1.25	1.2	1.3	0.00127	3.8e-05	-3.8e-05	7.1e-05	-7.1e-05
+1.35	1.3	1.4	0.001149	3.3e-05	-3.3e-05	6.4e-05	-6.4e-05
+1.45	1.4	1.5	0.000901	2.7e-05	-2.7e-05	5.3e-05	-5.3e-05
+1.6	1.5	1.7	0.0007	1.5e-05	-1.5e-05	3.9e-05	-3.9e-05
+1.7999999999999998	1.7	1.9	0.000494	1.1e-05	-1.1e-05	2.7e-05	-2.7e-05
+2.05	1.9	2.2	0.000307	5e-06	-5e-06	1.7e-05	-1.7e-05
+2.4000000000000004	2.2	2.6	0.000161	3e-06	-3e-06	9e-06	-9e-06
+2.85	2.6	3.1	7.6e-05	1e-06	-1e-06	4e-06	-4e-06
+3.5	3.1	3.9	2.5e-05	1e-06	-1e-06	1e-06	-1e-06
+4.4	3.9	4.9	6e-06	0.0	-0.0	0.0	-0.0
+5.45	4.9	6.0	1.5e-06	1e-07	-1e-07	1e-07	-1e-07
+

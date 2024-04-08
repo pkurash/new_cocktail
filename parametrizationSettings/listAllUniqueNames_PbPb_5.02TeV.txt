@@ -1,0 +1,3 @@
+NMSpectraPCM	1
+%default	0
+

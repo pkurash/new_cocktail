@@ -1,0 +1,15 @@
+%particle   centrality  method  Fit1    Fit2    Fit3
+NPion       NSD          -       oHagPt  tcmpt   tmpt    stop
+Eta         NSD          -       oHagPt  tcmpt   tmpt    stop
+Proton      NSD          -       oHagPt  tcmpt   tmpt    stop
+NKaonSubS   NSD          -       oHagPt  tcmpt   tmpt    stop
+Lambda      NSD          -       oHagPt  tcmpt   tmpt    stop
+CKaon       NSD          -       oHagPt  tcmpt   tmpt    stop
+CPion       NSD          -       oHagPt  tcmpt   tmpt    stop
+Phi         NSD          -       oHagPt  tcmpt   tmpt    stop
+NKaonStar   NSD          -       oHagPt  tcmpt   tmpt    stop
+%CXi         NSD          -       oHagPt  tcmpt   tmpt    stop
+%COmega      NSD          -       oHagPt  tcmpt   tmpt    stop
+%NRho        NSD          -       oHagPt  tcmpt   tmpt    stop
+CSigmaStar  NSD          -       oHagPt  tcmpt   tmpt    stop
+NXiStar     NSD          -       oHagPt  tcmpt   tmpt    stop

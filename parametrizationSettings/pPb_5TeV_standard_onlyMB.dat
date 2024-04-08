@@ -1,0 +1,29 @@
+%particle   centrality  method      pt const rel sys(%) ptMin   ptMax   func    opt     par1    par1Low par1Up  par2    par2Low par2Up  par3    par3Low par3Up  par4    par4Low par4Up
+NPion       MB          PCM         9.0                 0.4     16.0    oHagPt  QINRME+  596    -     -     0.2     0.1     0.5     0.128   0.0     0.5     0.57    0.3     0.8     6.16     5.5    7.5  stop
+NPion       MB          PCMEMCal    6.18                0.8     20.0    oHagPt  QINRME+  596    -     -     0.2     0.1     0.5     0.128   0.0     0.5     0.57    0.3     0.8     6.16     5.5    7.5  stop
+NPion       MB          PCMPHOS     5.14                0.6     12.0    oHagPt  QINRME+  596    -     -     0.2     0.1     0.5     0.128   0.0     0.5     0.57    0.3     0.8     6.16     5.5    7.5  stop
+NPion       MB          EMCal       4.24                1.4     16.0    oHagPt  QINRME+  596    -     -     0.2     0.1     0.5     0.128   0.0     0.5     0.57    0.3     0.8     6.16     5.5    7.5  stop
+NPion       MB          PHOS        -                   1.0     20.0    oHagPt  QINRME+  596    -     -     0.2     0.1     0.5     0.128   0.0     0.5     0.57    0.3     0.8     6.16     5.5    7.5  stop
+NPion       MB          Dalitz      -                   0.6     10.0    oHagPt  QINRME+  596    -     -     0.2     0.1     0.5     0.128   0.0     0.5     0.57    0.3     0.8     6.16     5.5    7.5  stop
+NPion       MB          Comb        4.0                   0.4     20.0    oHagPt  QINRME+  596    -     -     0.2     0.1     0.5     0.128   0.0     0.5     0.57    0.3     0.8     6.16     5.5    7.5  stop
+Eta         MB          PCM         9.0                 0.7     10.0    oHagPt  QINRME+  29    0.9 40.5     0.24    0.1 0.5     0  -  -   0.95  0.7  1.2        6.3     5.5  7.5 stop
+Eta         MB          PCMEMCal    6.18                1.1     16.0    oHagPt  QINRME+  29    1.3 40.5     0.24    0.1 0.5     0  -  -   0.95  0.7  1.2        6.3     5.5  7.5 stop
+Eta         MB          PCMPHOS     5.14                1.1     6.0     oHagPt  QINRME+  29    1.3 40.5     0.24    0.1 0.5     0  -  -   0.95  0.7  1.2        6.3     5.5  7.5 stop
+Eta         MB          EMCal       4.24                2.2     20.0    oHagPt  QINRME+  29    1.3 40.5     0.24    0.1 0.5     0  -  -   0.95  0.7  1.2        6.3     5.5  7.5 stop
+Eta         MB          Comb        4.0                 0.7     20.0    oHagPt  QINRME+  29    1.3 40.5     0.24    0.1 0.5     0  -  -   0.95  0.7  1.2        6.3     5.5  7.5 stop
+CKaon       MB          -       2.0                   0.4     20.0    oHagPt  QNRME+  stop
+CPion       MB          -       2.0                   0.4     20.0    oHagPt  QNRME+  stop
+Proton      MB          -       2.0                   0.3     5.0    oHagPt  QINRME+  1.2     0.8       1.5       0.5         0.3       0.7       0           -       -       1.5         1.0       2       8.2    5.5 9.0 stop
+NKaonSubS   MB          -       -                   0.8     8.0     oHagPt  QNRME+  stop
+Lambda      MB          -       -                   0.7     10.0     oHagPt  QNRME+  stop
+Phi         MB          -       3.0                   1.0     21.0    oHagPt  QNIRME+  2.2     -       -       0.8         -       -       0           -       -       0.8         -       -       5.5    4.0 8.0 stop
+NKaonStar   MB          -       3.0                   0.0     15.0    oHagPt  QNRME+  2.2     -       -       0.8         -       -       0           -       -       0.8         -       -       5.5    4.0 8.0 stop
+NXiStar     MB          -       5.0                   0.8     8.0    oHagPt  QNRME+  2.2     -       -       0.8         -       -       0           -       -       0.8         -       -       5.5    4.0 8.0 stop
+CSigmaStar   MB          -       -                   1.0     6.0    oHagPt  QNRME+  2.2     -       -       0.8         -       -       0           -       -       0.8         -       -       5.5    4.0 8.0 stop
+
+% other options
+%Phi         MB          -       3.0                   0.8     21.0    tmpt  QINRME+   0.87   0.5   1.2     8.2     5.5   9     0.375 -   -  stop
+%COmega      MB          -       -                   1.0     6.0     oHagPt  QNRME+  stop
+%CKaon       MB          -       2.0                   0.8     20.0    tmpt  QNRME+  10   -   - 7  5.5  8.0    0.258 -   -  stop
+%CPion       MB          -       2.0                   0.4     20.0    tmpt  NRME+  60   20   120 7.0  6.0  7.2    0.140 0.135   0.141  stop
+%CXi         MB          -       5.0                   0.6     8.0     oHagPt  QNRME+  stop

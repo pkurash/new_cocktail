@@ -1,0 +1,21 @@
+%: table_doi: 10.17182/hepdata.73011.v1/t17
+%: name: Table 17
+%: description: Mean pT of OMEGA- in p-Pb collisions with centre-of-mass energy/nucleon=5.02 TeV for each V0A multiplicity event class.
+
+%: data_file: Table17.yaml
+%: keyword reactions: P PB --> OMEGA- X
+%: keyword observables: PT
+%: keyword phrases: Inclusive
+%: keyword cmenergies: 5020.0
+%: RE   P PB --> OMEGA- X
+%: YRAP(C=CM)   -0.5-0.0
+%: SQRT(S)/NUCLEON [GeV]   5020.0
+%'class [PCT]' 'class [PCT] LOW' 'class [PCT] HIGH' '$\langle p_{T} \rangle$ [GEV]' 'stat +' 'stat -' 'sys total +' 'sys total -' 'sys uncorr +' 'sys uncorr -'
+2.5 0.0 5.0 1.818 0.056 -0.056 0.076 -0.076 0.025 -0.025
+7.5 5.0 10.0 1.829 0.062 -0.062 0.079 -0.079 0.03 -0.03
+15.0 10.0 20.0 1.771 0.058 -0.058 0.082 -0.082 0.038 -0.038
+30.0 20.0 40.0 1.668 0.04 -0.04 0.082 -0.082 0.029 -0.029
+50.0 40.0 60.0 1.563 0.033 -0.033 0.067 -0.067 0.035 -0.035
+70.0 60.0 80.0 1.544 0.055 -0.055 0.084 -0.084 0.04 -0.04
+90.0 80.0 100.0 1.35 0.11 -0.11 0.106 -0.106 0.048 -0.048
+

@@ -1,0 +1,17 @@
+%particle   centrality  method       ToBeFitted pt const rel sys(%) ptMin   ptMax   ptMinData   ptMaxData   ptMinInteg   ptMaxInteg     func    opt     par1    par1Low par1Up  par2    par2Low par2Up  par3    par3Low par3Up  par4    par4Low par4Up   par5    par5Low par5Up
+NPion       0010          Comb        Stat    -                   1.0     20.0    1.0         20.0        0            40             oHagPt  QNRME+  stop
+Eta         0010          Comb        Stat    -                   1.0     20.0    1.0         20.0        0            40             oHagPt  QNRME+  stop
+Proton      0010          -           Stat    -                   0.3     20.0    0.3         20.0        0            40             oHagPt  QNRME+  stop
+NKaonSubS   0010          -           Stat    -                   0.3     20.0    0.3         20.0        0            40             oHagPt  QNRME+  stop
+Lambda      0010          -           Stat    -                   0.5     16.0    0.5         16.0        0            40             oHagPt  QNRME+  stop
+CKaon       0010          -           Stat    -                   0.2     20.0    0.2         20.0        0            40             oHagPt  QNRME+  stop
+CPion       0010          -           Stat    -                   0.1     20.0    0.1         20.0        0            40             oHagPt  QNRME+  stop
+Phi         0010          -           Stat    -                   0.4     21.0    0.4         21.0        0            40             oHagPt  QNRME+  stop
+NPion       2040          Comb        Stat    -                   1.0     20.0    1.0         20.0        0            40             oHagPt  QNRME+  stop
+Eta         2040          Comb        Stat    -                   1.0     20.0    1.0         20.0        0            40             oHagPt  QNRME+  stop
+Proton      2040          -           Stat    -                   0.3     20.0    0.3         20.0        0            40             oHagPt  QNRME+  stop
+NKaonSubS   2040          -           Stat    -                   0.3     20.0    0.3         20.0        0            40             oHagPt  QNRME+  stop
+Lambda      2040          -           Stat    -                   0.5     16.0    0.5         16.0        0            40             oHagPt  QNRME+  stop
+CKaon       2040          -           Stat    -                   0.2     20.0    0.2         20.0        0            40             oHagPt  QNRME+  stop
+CPion       2040          -           Stat    -                   0.1     20.0    0.1         20.0        0            40             oHagPt  QNRME+  stop
+Phi         2040          -           Stat    -                   0.4     21.0    0.4         21.0        0            40             oHagPt  QNRME+  stop

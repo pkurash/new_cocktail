@@ -1,0 +1,27 @@
+%: table_doi: 10.17182/hepdata.72720.v1/t24
+%: name: Table 24
+%: description: Ratio of $p_{\rm T}$-differential yields of (p + $\bar{p}$) and $\phi$ in p-Pb collisions with centre-of-mass energy/nucleon=5.02 TeV (10-20% multiplicity class).
+
+%: data_file: Table24.yaml
+%: keyword reactions: P PB --> PHI X
+%: keyword observables: DN/DPT/DYRAP | RATIO
+%: keyword phrases: Inclusive | Single Differential Distribution | Transverse Momentum Dependence | Rapidity Dependence
+%: keyword cmenergies: 5020.0
+%: RE   P PB --> PHI X
+%: class [pct]   10.0-20.0
+%: YRAP(C=CM)   -0.5-0.0
+%: SQRT(S)/NUCLEON [GeV]   5020.0
+%'$p_{\rm T}$ [GeV]' '$p_{\rm T}$ [GeV] LOW' '$p_{\rm T}$ [GeV] HIGH' '(p + $\bar{p}$)/$\phi$' 'stat +' 'stat -' 'sys +' 'sys -'
+0.5 0.4 0.6 8.87 0.63 -0.63 0.8 -0.8
+0.7 0.6 0.8 8.57 0.24 -0.24 0.89 -0.89
+0.9 0.8 1.0 7.67 0.15 -0.15 0.82 -0.82
+1.1 1.0 1.2 6.48 0.12 -0.12 0.67 -0.67
+1.2999999999999998 1.2 1.4 6.25 0.13 -0.13 0.61 -0.61
+1.5 1.4 1.6 6.01 0.15 -0.15 0.58 -0.58
+1.7000000000000002 1.6 1.8 5.32 0.15 -0.15 0.52 -0.52
+1.9 1.8 2.0 5.21 0.16 -0.16 0.51 -0.51
+2.25 2.0 2.5 4.856 0.098 -0.098 0.463 -0.463
+2.75 2.5 3.0 4.49 0.1 -0.1 0.44 -0.44
+3.25 3.0 3.5 3.77 0.14 -0.14 0.48 -0.48
+3.75 3.5 4.0 3.45 0.16 -0.16 0.69 -0.69
+

@@ -1,0 +1,24 @@
+%: table_doi: 10.17182/hepdata.63866.v1/t3
+%: name: Table 3
+%: description: pT-differential cross section of prompt D*+ mesons measured in p-Pb collisions in the rapidity interval -0.96<y_cms<0.04.
+
+%: data_file: Table3.yaml
+%: keyword reactions: P PB --> D*+ X
+%: keyword observables: DSIG/DPT
+%: keyword phrases: Inclusive | Prompt | Single Differential Cross Section | Transverse Momentum Dependence | Charm production
+%: keyword cmenergies: 5020.0
+%: RE   P PB --> D*+ X
+%: YRAP(RF=CM)   -0.96-0.04
+%: SQRT(S)/NUCLEON [GeV]   5020.0
+%'PT [GEV]' 'PT [GEV] LOW' 'PT [GEV] HIGH' 'D2(SIG)/DPT/DYRAP [MUB/GEV]' 'stat +' 'stat -' 'sys +' 'sys -' 'sys overall normalization uncertainty +' 'sys overall normalization uncertainty -' 'sys uncertainty on branching ratio +' 'sys uncertainty on branching ratio -'
+1.5 1.0 2.0 12400.0 3120.0 -3120.0 -4210.0 2040.0 '3.7%' '-3.7%' '1.5%' '-1.5%'
+2.5 2.0 3.0 6890.0 680.0 -680.0 -1520.0 794.0 '3.7%' '-3.7%' '1.5%' '-1.5%'
+3.5 3.0 4.0 4290.0 250.0 -250.0 -677.0 469.0 '3.7%' '-3.7%' '1.5%' '-1.5%'
+4.5 4.0 5.0 1970.0 119.0 -119.0 -268.0 235.0 '3.7%' '-3.7%' '1.5%' '-1.5%'
+5.5 5.0 6.0 941.0 60.0 -60.0 -112.0 103.0 '3.7%' '-3.7%' '1.5%' '-1.5%'
+6.5 6.0 7.0 464.0 38.3 -38.3 -56.3 53.3 '3.7%' '-3.7%' '1.5%' '-1.5%'
+7.5 7.0 8.0 264.0 23.6 -23.6 -31.7 30.7 '3.7%' '-3.7%' '1.5%' '-1.5%'
+10.0 8.0 12.0 94.6 6.21 -6.21 -11.8 11.3 '3.7%' '-3.7%' '1.5%' '-1.5%'
+14.0 12.0 16.0 13.6 1.9 -1.9 -1.86 1.75 '3.7%' '-3.7%' '1.5%' '-1.5%'
+20.0 16.0 24.0 2.43 0.599 -0.599 -0.377 0.364 '3.7%' '-3.7%' '1.5%' '-1.5%'
+

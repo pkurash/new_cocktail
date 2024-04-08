@@ -1,0 +1,12 @@
+%pdg code   mtScaleFactor   mtScaleFactorUp     mtScaleFactorDown  particle    method  ratio           method  
+111         -               -                   -                   NPion      MCParam     stop
+221         -               -                   -                   Eta        MCParam     stop
+3122        -               -                   -                   Lambda     MCParam     stop
+223         -               -                   -                   Omega      MCParam     stop
+331         -               -                   -                   EtaPrime   MCParam     stop
+113         -               -                   -                   NRho       MCParam     stop
+310         -               -                   -                   NKaonSubS  MCParam     stop
+130         -               -                   -                   CKaon      MCParam     stop
+321         -               -                   -                   CKaon      MCParam     stop
+-321        -               -                   -                   CKaon      MCParam     stop
+333         -               -                   -                   Phi        MCParam     stop

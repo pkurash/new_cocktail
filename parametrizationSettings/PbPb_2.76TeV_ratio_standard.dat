@@ -1,0 +1,32 @@
+%particle           centrality  method  pt const rel sys(%) ptMin   ptMax   func        opt  
+EtaToNPion          0005        PCM     -       1.5     8.0     oHagRatio   QNRME+  stop
+EtaToNPion          0510        PCM     -       1.0     10.0    oHagRatio   QNRME+  5.11  -   -   0.79   -   -  -0.007      -   -   13    -   -   2.9    -   -   200     -   -   171     -   -   -87     -   -   0.44    -   -   -0.21  -   -   stop
+EtaToNPion          0010        Comb    -       1.0     20.0    qcdRatio    QNMRE+  599 -   -   64.67    -   -   -2.18686e+07    -   -   14.59    -   -   2.93063e+07 -   -   3276 -   -   -51    -   -   8.3   -   -   8.97561e-05     -   -   -0.928  -   -      stop
+EtaToNPion          0010        PCM     -       1.0     10.0    oHagRatio    QNMRE+  stop
+EtaToNPion          0010        EMCal   -       4.0     20.0    pol1        QNMRE+  52    -   -   6.7    -   -  -199        -   -   4.32  -   -   325    -   -   244     -   -   6.64    -   -   26      -   -   0.94    -   -   57.7   -   -   stop
+EtaToNPion          2040        PCM     -       1.0     10.0    softHard    QNMRE+  0.524   -   -   -55816  -   -   0.1 -   -   1050 -   -   -0.00037 -    -   84.27 -   -   12.76  -   -       stop
+EtaToNPion          2050        Comb    -       1.0     20.0    softHard   QNMRE+   0.524   -   -   -55816  -   -   0.1 -   -   1050 -   -   -0.00037 -    -   84.27 -   -   12.76  -   -       stop
+EtaToNPion          2050        PCM     -       1.0     10.0    softHard   QNMRE+ stop
+EtaToNPion          2050        EMCal   -       4.0     20.0    pol1        QNMRE+  3.86  -   -   7.06   -   -   -1.36      -   -   0.22    -   -   -0.7    -   -   33      -   -   6.33    -   -   -197   -   -   3.21    -   -   454      -   -   stop
+CKaonToCPion        0005        -       -       0.2     20.0    qcdRatio    QNRME+  7.8   -   -   6.46   -   -  -60         -   -   3.92  -   -   86.6   -   -   24.7    -   -   6.93    -   -   -18     -   -   -16     -   -   59     -   -   stop
+CKaonToCPion        0510        -       -       0.2     20.0    qcdRatio    QNRME+  7.8   -   -   6.46   -   -  -60         -   -   3.92  -   -   86.6   -   -   24.7    -   -   6.93    -   -   -18     -   -   -16     -   -   59     -   -   stop
+CKaonToCPion        1020        -       -       0.2     20.0    qcdRatio    QNRME+  stop
+CKaonToCPion        0010        -       -       0.2     20.0    qcdRatio    QNRME+  7.8   -   -   6.46   -   -  -60         -   -   3.92  -   -   86.6   -   -   24.7    -   -   6.93    -   -   -18     -   -   -16     -   -   59     -   -   stop
+CKaonToCPion        2040        -       -       0.2     20.0    qcdRatio    QNRME+  stop
+CKaonToCPion        4060        -       -       0.2     20.0    qcdRatio    QNRME+  stop
+CKaonToCPion        6080        -       -       0.2     20.0    qcdRatio    QNRME+  stop
+ProtonToCPion       0005        -       -       0.3     20.0    oHagRatio   QNRME+  0.33    -   -   0.27    -   -   -0.004   -   -   4.99  -   -   8.94    -   -   157 -   -   -0.25    -   -   0.072    -   -   1.94   -   -   6.34    -   -       stop
+ProtonToCPion       0510        -       -       0.3     20.0    oHagRatio   QNRME+  0.33    -   -   0.27    -   -   -0.004   -   -   4.99  -   -   8.94    -   -   157 -   -   -0.25    -   -   0.072    -   -   1.94   -   -   6.34    -   -       stop
+ProtonToCPion       0010        -       -       0.3     20.0    oHagRatio   QNRME+  0.33    -   -   0.27    -   -   -0.004   -   -   4.99  -   -   8.94    -   -   157 -   -   -0.25    -   -   0.072    -   -   1.94   -   -   6.34    -   -       stop
+ProtonToCPion       1020        -       -       0.3     20.0    oHagRatio   QNRME+  0.33    -   -   0.27    -   -   -0.004   -   -   4.99  -   -   8.94    -   -   157 -   -   -0.25    -   -   0.072    -   -   1.94   -   -   6.34    -   -       stop
+ProtonToCPion       2040        -       -       0.3     20.0    oHagRatio   QNRME+  stop
+ProtonToCPion       4060        -       -       0.3     20.0    oHagRatio    QNRME+  stop
+ProtonToCPion       6080        -       -       0.3     20.0    oHagRatio    QNRME+  stop
+LambdaToNKaonSubS   0005        -       -       0.6     12.0    qcdRatio    QNRME+  37    -   -   6.8    -   -  -237        -   -   2.6   -   -   80     -   -   169     -   -   6.3     -   -   -0.98   -   -   5.77    -   -   1.19   -   -   stop
+LambdaToNKaonSubS   0510        -       -       0.6     12.0    oHagRatio   QNRME+  5.11  -   -   0.79   -   -  -0.007      -   -   13    -   -   2.9    -   -   200     -   -   171     -   -   -87     -   -   0.44    -   -   -0.21  -   -   stop
+LambdaToNKaonSubS   0010        -       -       0.6     12.0    oHagRatio   QNRME+  4.86  -   -   0.75   -   -  -0.007      -   -   13    -   -   2.9    -   -   215     -   -   194     -   -   -87     -   -   0.26    -   -   -0.23  -   -   stop
+LambdaToNKaonSubS   1020        -       -       0.6     12.0    qcdRatio    QNRME+  stop
+LambdaToNKaonSubS   2040        -       -       0.6     12.0    qcdRatio    QNRME+  10    -   -   7      -   -   -153       -   -   2.89    -   -   71.4    -   -   38.8    -   -   6.4     -   -   81.3   -   -   -46.6   -   -   244 -    -       stop
+LambdaToNKaonSubS   4060        -       -       0.6     12.0    qcdRatio    QNRME+  11.3        -       -       6.88        -       -       -28.3           -       -       2.25        -       -       15.7        -       -       31.2        -       -           6.5         -       -       -1.4        -       -       0.37        -       -       36.9        -           -           0.5        stop
+LambdaToNKaonSubS   6080        -       -       0.6     12.0    qcdRatio    QNRME+  stop
+LambdaToNKaonSubS   8090        -       -       0.6     12.0    qcdRatio    QNRME+  stop

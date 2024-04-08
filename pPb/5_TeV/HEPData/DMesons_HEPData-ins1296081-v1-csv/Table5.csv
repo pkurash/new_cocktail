@@ -1,0 +1,24 @@
+#: table_doi: 10.17182/hepdata.63866.v1/t5
+#: name: Table 5
+#: description: Nuclear modification factor R(pPb) of prompt D0 mesons vs. pT measured in p-Pb collisions in the rapidity interval -0.96<y_cms<0.04.
+
+#: data_file: Table5.yaml
+#: keyword reactions: P PB --> D0 X
+#: keyword observables: RATIO
+#: keyword phrases: Inclusive | Prompt | Charm production
+#: keyword cmenergies: 5020.0
+#: RE,,,P PB --> D0 X
+#: YRAP(RF=CM),,,-0.96-0.04
+#: SQRT(S)/NUCLEON [GeV],,,5020.0
+'PT [GEV]','PT [GEV] LOW','PT [GEV] HIGH','R(pPb)','stat +','stat -','sys +','sys -','sys,global normalization uncertainty +','sys,global normalization uncertainty -'
+1.5,1.0,2.0,0.771,0.161,-0.161,-0.201,0.193,'5.09%','-5.09%'
+2.5,2.0,3.0,0.971,0.101,-0.101,-0.21,0.185,'5.09%','-5.09%'
+3.5,3.0,4.0,0.956,0.08,-0.08,-0.186,0.16,'5.09%','-5.09%'
+4.5,4.0,5.0,0.939,0.08,-0.08,-0.17,0.156,'5.09%','-5.09%'
+5.5,5.0,6.0,1.054,0.11,-0.11,-0.188,0.175,'5.09%','-5.09%'
+6.5,6.0,7.0,1.077,0.136,-0.136,-0.191,0.179,'5.09%','-5.09%'
+7.5,7.0,8.0,0.941,0.165,-0.165,-0.175,0.166,'5.09%','-5.09%'
+10.0,8.0,12.0,1.045,0.122,-0.122,-0.193,0.183,'5.09%','-5.09%'
+14.0,12.0,16.0,1.14,0.3,-0.3,-0.235,0.228,'5.09%','-5.09%'
+20.0,16.0,24.0,1.014,0.207,-0.207,-0.463,0.348,'5.09%','-5.09%'
+

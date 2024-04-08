@@ -1,0 +1,307 @@
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Unix.*.Root.DynamicPath=.:$(ROOT_DYN_PATH):> for level 0; ignored
+  *******************************************
+  *                                         *
+  *        W E L C O M E  to  R O O T       *
+  *                                         *
+  *   Version   5.34/30     23 April 2015   *
+  *                                         *
+  *  You are welcome to visit our Web site  *
+  *          http://root.cern.ch            *
+  *                                         *
+  *******************************************
+
+ROOT 5.34/30 (heads/v5-34-00-patches@v5-34-28-57-gec27989, Feb 03 2022, 13:59:00 on linuxx8664gcc)
+
+CINT/ROOT C/C++ Interpreter version 5.18.00, July 2, 2010
+Type ? for help. Commands must be C++ statements.
+Enclose multiple statements between { }.
+
+Processing runStandaloneCocktail.C...
+vtx set
+ ***********************************
+ *        OpenDecayTable           *
+ *        ---------------          *
+ *   USE ALIROOT decaytable        *
+ ***********************************
+1                                                                              
+ ******************************************************************************
+ ******************************************************************************
+ **                                                                          **
+ **                                                                          **
+ **              *......*                  Welcome to the Lund Monte Carlo!  **
+ **         *:::!!:::::::::::*                                               **
+ **      *::::::!!::::::::::::::*          PPP  Y   Y TTTTT H   H III   A    **
+ **    *::::::::!!::::::::::::::::*        P  P  Y Y    T   H   H  I   A A   **
+ **   *:::::::::!!:::::::::::::::::*       PPP    Y     T   HHHHH  I  AAAAA  **
+ **   *:::::::::!!:::::::::::::::::*       P      Y     T   H   H  I  A   A  **
+ **    *::::::::!!::::::::::::::::*!       P      Y     T   H   H III A   A  **
+ **      *::::::!!::::::::::::::* !!                                         **
+ **      !! *:::!!:::::::::::*    !!       This is PYTHIA version 6.425      **
+ **      !!     !* -><- *         !!       Last date of change: 23 Mar 2011  **
+ **      !!     !!                !!                                         **
+ **      !!     !!                !!       Now is  0 Jan 2000 at  0:00:00    **
+ **      !!                       !!                                         **
+ **      !!        lh             !!       Disclaimer: this program comes    **
+ **      !!                       !!       without any guarantees. Beware    **
+ **      !!                 hh    !!       of errors and use common sense    **
+ **      !!    ll                 !!       when interpreting results.        **
+ **      !!                       !!                                         **
+ **      !!                                Copyright T. Sjostrand (2011)     **
+ **                                                                          **
+ ** An archive of program versions and documentation is found on the web:    **
+ ** http://www.thep.lu.se/~torbjorn/Pythia.html                              **
+ **                                                                          **
+ ** When you cite this program, the official reference is to the 6.4 manual: **
+ ** T. Sjostrand, S. Mrenna and P. Skands, JHEP05 (2006) 026                 **
+ ** (LU TP 06-13, FERMILAB-PUB-06-052-CD-T) [hep-ph/0603175].                **
+ **                                                                          **
+ ** Also remember that the program, to a large extent, represents original   **
+ ** physics research. Other publications of special relevance to your        **
+ ** studies may therefore deserve separate mention.                          **
+ **                                                                          **
+ ** Main author: Torbjorn Sjostrand; Department of Theoretical Physics,      **
+ **   Lund University, Solvegatan 14A, S-223 62 Lund, Sweden;                **
+ **   phone: + 46 - 46 - 222 48 16; e-mail: torbjorn@thep.lu.se              **
+ ** Author: Stephen Mrenna; Computing Division, GDS Group,                   **
+ **   Fermi National Accelerator Laboratory, MS 234, Batavia, IL 60510, USA; **
+ **   phone: + 1 - 630 - 840 - 2556; e-mail: mrenna@fnal.gov                 **
+ ** Author: Peter Skands; CERN/PH-TH, CH-1211 Geneva, Switzerland            **
+ **   phone: + 41 - 22 - 767 24 47; e-mail: peter.skands@cern.ch             **
+ **                                                                          **
+ **                                                                          **
+ ******************************************************************************
+ ******************************************************************************
+
+     Advisory warning type 7 given after        0 PYEXEC calls:
+     (PYUPDA:) Kinematically unallowed decay of KF =       18
+I-AddMCEMCocktailV2 calls AliGenEMCocktailV2::CreateCocktail()
+
+ *** Break *** segmentation violation
+I-AliGenEMCocktailV2::CreateCocktail: Ranges pT: 0.0 : 50.0 GeV/c, y:-1.00 : 1.00, Phi:  0.0 : 360.0 degres
+I-AliGenEMCocktailV2::CreateCocktail: the parametrised sources uses the decay mode 20
+I-AliGenEMCocktailV2::CreateCocktail: generating 100 particles per source
+I-AliGenEMCocktailV2::CreateCocktail: Selected Params:collision system - 200 , centrality - 0
+W-TClass::TClass: no dictionary for class TF1Parameters is available
+I-AliGenEMlibV2::SetPtParametrizations: Get pi0 parametrization
+W-TStreamerInfo::BuildOld: Cannot convert TF1::fParErrors from type:vector<double> to type:Double_t*, skip element
+W-TStreamerInfo::BuildOld: Cannot convert TF1::fParMin from type:vector<double> to type:Double_t*, skip element
+W-TStreamerInfo::BuildOld: Cannot convert TF1::fParMax from type:vector<double> to type:Double_t*, skip element
+W-TStreamerInfo::BuildOld: Cannot convert TF1::fSave from type:vector<double> to type:Double_t*, skip element
+W-TStreamerInfo::BuildOld: Cannot convert TF1::fParams from type:TF1Parameters to type:Double_t*, skip element
+E-TFormula::TFormula: expression may not be 0 or have 0 length
+E-TF1::TF1: function: 111_pt/ has 0 parameters instead of 1
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007fa2e6d6f3eb in waitpid () from /lib64/libc.so.6
+#1  0x00007fa2e6cd0baf in do_system () from /lib64/libc.so.6
+#2  0x00007fa2e892ed9b in TUnixSystem::Exec (shellcmd=<optimized out>, this=0xe80a00) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/core/unix/src/TUnixSystem.cxx:2172
+#3  TUnixSystem::StackTrace (this=0xe80a00) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/core/unix/src/TUnixSystem.cxx:2419
+#4  0x00007fa2e8930d2c in TUnixSystem::DispatchSignals (this=0xe80a00, sig=kSigSegmentationViolation) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/core/unix/src/TUnixSystem.cxx:1294
+#5  <signal handler called>
+#6  0x00007fa2e3f5e9e4 in TFormula::GetParameter (this=this
+entry=0x29cca40, ipar=ipar
+entry=0) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/hist/hist/src/TFormula.cxx:3140
+#7  0x00007fa2c5ead540 in AliGenEMlibV2::SetPtParametrizations (fileName=..., dirName=...) at /jenkins/workspace/DailyBuilds/DailyAliPhysics/daily-tags.sV2toLMyVL/SOURCES/AliPhysics/vAN-20220518/3b0a56c9ce/PWG/Cocktail/AliGenEMlibV2.cxx:1346
+#8  0x00007fa2c5ea3f21 in AliGenEMCocktailV2::CreateCocktail (this=0x26f5d90) at /jenkins/workspace/DailyBuilds/DailyAliPhysics/daily-tags.sV2toLMyVL/SOURCES/AliPhysics/vAN-20220518/3b0a56c9ce/PWG/Cocktail/AliGenEMCocktailV2.cxx:191
+#9  0x00007fa2c5eb69b5 in G__G__PWGCocktail_329_0_3 (result7=result7
+entry=0x7fffaa8fcae0, funcname=funcname
+entry=0x26f0e30 "", libp=libp
+entry=0x7fffaa8fcb20, hash=hash
+entry=0) at /jenkins/workspace/DailyBuilds/DailyAliPhysics/daily-tags.sV2toLMyVL/BUILD/ba372dc5a31a911021f64a50c7b62d91e30f07ac/AliPhysics/PWG/Cocktail/G__PWGCocktail.cxx:2717
+#10 0x00007fa2e7cf7dee in Cint::G__ExceptionWrapper (funcp=funcp
+entry=0x7fa2c5eb69a0 <G__G__PWGCocktail_329_0_3(G__value*, char const*, G__param*, int)>, result7=result7
+entry=0x7fffaa8fcae0, funcname=funcname
+entry=0x26f0e30 "", libp=libp
+entry=0x7fffaa8fcb20, hash=hash
+entry=0) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/Api.cxx:393
+#11 0x00007fa2e7c1c094 in G__execute_call (result7=result7
+entry=0x7fffaa8fcae0, libp=libp
+entry=0x7fffaa8fcb20, ifunc=ifunc
+entry=0x26f0e30, ifn=ifn
+entry=0) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/newlink.cxx:2408
+#12 0x00007fa2e7c1c38b in G__call_cppfunc (result7=result7
+entry=0x7fffaa8fcae0, libp=libp
+entry=0x7fffaa8fcb20, ifunc=ifunc
+entry=0x26f0e30, ifn=ifn
+entry=0) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/newlink.cxx:2612
+#13 0x00007fa2e7c03c9f in G__interpret_func (result7=result7
+entry=0x7fffaa8fcae0, funcname=0x2617710 "CreateCocktail", libp=libp
+entry=0x7fffaa8fcb20, hash=1406, p_ifunc=0x26f0e30, funcmatch=funcmatch
+entry=1, memfunc_flag=<optimized out>) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/ifunc.cxx:5791
+#14 0x00007fa2e7bf5f55 in G__getfunction (item=item
+entry=0x25fd127 "CreateCocktail()", known3=known3
+entry=0x7fffaa907ff4, memfunc_flag=<optimized out>, memfunc_flag
+entry=1) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/func.cxx:2660
+#15 0x00007fa2e7cbd07c in G__getstructmem (store_var_type=store_var_type
+entry=112, varname=..., membername=membername
+entry=0x25fd127 "CreateCocktail()", memnamesize=memnamesize
+entry=2147483647, tagname=tagname
+entry=0x2616ae0 "gener", known2=0x7fffaa907ff4, varglobal=0x7fa2e847b180 <G__global>, objptr=2) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/var.cxx:6821
+#16 0x00007fa2e7cb61b5 in G__getvariable (item=item
+entry=0x25fd120 "gener->CreateCocktail()", known=known
+entry=0x7fffaa907ff4, varglobal=0x7fa2e847b180 <G__global>, varlocal=0x7fffaa90b8a0) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/var.cxx:5407
+#17 0x00007fa2e7bd22f1 in G__getitem (item=0x25fd120 "gener->CreateCocktail()") at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/expr.cxx:1906
+#18 0x00007fa2e7bd6c70 in G__getexpr (expression=<optimized out>) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/expr.cxx:1488
+#19 0x00007fa2e7c4af34 in G__exec_function (presult=0x7fffaa90aaf0, plargestep=0x7fffaa90a8d8, piout=0x7fffaa90a8d4, pc=<synthetic pointer>, statement=...) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/parse.cxx:645
+#20 G__exec_statement (mparen=mparen
+entry=0x7fffaa90b68c) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/parse.cxx:7371
+#21 0x00007fa2e7c0562a in G__interpret_func (result7=result7
+entry=0x7fffaa90c200, funcname=<optimized out>, libp=libp
+entry=0x7fffaa90c240, hash=<optimized out>, p_ifunc=0x24d8a00, funcmatch=funcmatch
+entry=1, memfunc_flag=<optimized out>) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/ifunc.cxx:6710
+#22 0x00007fa2e7bf5c22 in G__getfunction (item=item
+entry=0x226ee50 "AddMCEMCocktailV2(200,0,0,257,\"parametrizations/Parametrizations_13TeV_mt_full_Andreas.root\",\"param\",100,0.,50,2000,0,1,0,0", known3=known3
+entry=0x7fffaa916ce4, memfunc_flag=<optimized out>, memfunc_flag
+entry=0) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/func.cxx:2901
+#23 0x00007fa2e7bd2752 in G__getitem (item=0x226ee50 "AddMCEMCocktailV2(200,0,0,257,\"parametrizations/Parametrizations_13TeV_mt_full_Andreas.root\",\"param\",100,0.,50,2000,0,1,0,0") at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/expr.cxx:1918
+#24 0x00007fa2e7bd6c70 in G__getexpr (expression=expression
+entry=0x2602860 "AddMCEMCocktailV2(200,0,0,257,\"parametrizations/Parametrizations_13TeV_mt_full_Andreas.root\",\"param\",100,0.,50,2000,0,1,0,0") at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/expr.cxx:1488
+#25 0x00007fa2e7be190c in G__calc_internal (exprwithspace=<optimized out>) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/expr.cxx:1071
+#26 0x00007fa2e7c53efe in G__process_cmd (line=line
+entry=0x2600520 ".X  /cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20220518-1/PWG/Cocktail/macros/AddMCEMCocktailV2.C(200, 0, 0, 257, \"parametrizations/Parametrizations_13TeV_mt_full_Andreas.root\", \"param\", "..., prompt=prompt
+entry=0xe86218 "", more=more
+entry=0xe86210, err=err
+entry=0x7fffaa91a50c, rslt=rslt
+entry=0x7fffaa91a510) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/pause.cxx:2331
+#27 0x00007fa2e88f5b80 in TCint::ProcessLine (this=0xe861d0, line=0x2600520 ".X  /cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20220518-1/PWG/Cocktail/macros/AddMCEMCocktailV2.C(200, 0, 0, 257, \"parametrizations/Parametrizations_13TeV_mt_full_Andreas.root\", \"param\", "..., error=0x0) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/core/meta/src/TCint.cxx:549
+#28 0x00007fa2e88f1047 in TCint::ProcessLineSynch (this=0xe861d0, line=0x2600520 ".X  /cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20220518-1/PWG/Cocktail/macros/AddMCEMCocktailV2.C(200, 0, 0, 257, \"parametrizations/Parametrizations_13TeV_mt_full_Andreas.root\", \"param\", "..., error=0x0) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/core/meta/src/TCint.cxx:631
+#29 0x00007fa2e893c595 in TApplication::ExecuteFile (file=file
+entry=0x7fa2e96b507d "$ALICE_PHYSICS/PWG/Cocktail/macros/AddMCEMCocktailV2.C(200, 0, 0, 257, \"parametrizations/Parametrizations_13TeV_mt_full_Andreas.root\", \"param\", 100, 0., 50, 2000, 0, 1, 0, 0", error=error
+entry=0x0, keep=keep
+entry=false) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/core/base/src/TApplication.cxx:1110
+#30 0x00007fa2e88f0038 in TCint::ExecuteMacro (this=<optimized out>, filename=0x7fa2e96b507d "$ALICE_PHYSICS/PWG/Cocktail/macros/AddMCEMCocktailV2.C(200, 0, 0, 257, \"parametrizations/Parametrizations_13TeV_mt_full_Andreas.root\", \"param\", 100, 0., 50, 2000, 0, 1, 0, 0", error=0x0) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/core/meta/src/TCint.cxx:1496
+#31 0x00007fa2e8850fd7 in G__G__Meta_174_0_63 (result7=result7
+entry=0x7fffaa91bfe0, funcname=funcname
+entry=0x25d7f60 "", libp=libp
+entry=0x7fffaa91c020, hash=hash
+entry=0) at /jenkins/workspace/build-any-ib/sw/20156342/1/BUILD/897cecf1a7a0b4f258e8d8909cd55ffccb32492b/ROOT/core/meta/G__Meta.cxx:10295
+#32 0x00007fa2e7cf7dee in Cint::G__ExceptionWrapper (funcp=funcp
+entry=0x7fa2e8850f50 <G__G__Meta_174_0_63(G__value*, char const*, G__param*, int)>, result7=result7
+entry=0x7fffaa91bfe0, funcname=funcname
+entry=0x25d7f60 "", libp=libp
+entry=0x7fffaa91c020, hash=hash
+entry=0) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/Api.cxx:393
+#33 0x00007fa2e7c1c094 in G__execute_call (result7=result7
+entry=0x7fffaa91bfe0, libp=libp
+entry=0x7fffaa91c020, ifunc=ifunc
+entry=0x25d7f60, ifn=ifn
+entry=0) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/newlink.cxx:2408
+#34 0x00007fa2e7c1c38b in G__call_cppfunc (result7=result7
+entry=0x7fffaa91bfe0, libp=libp
+entry=0x7fffaa91c020, ifunc=ifunc
+entry=0x25d7f60, ifn=ifn
+entry=0) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/newlink.cxx:2612
+#35 0x00007fa2e7c03c9f in G__interpret_func (result7=result7
+entry=0x7fffaa91bfe0, funcname=0x21e82c0 "ExecuteMacro", libp=libp
+entry=0x7fffaa91c020, hash=1221, p_ifunc=0x25d7f60, funcmatch=funcmatch
+entry=1, memfunc_flag=<optimized out>) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/ifunc.cxx:5791
+#36 0x00007fa2e7bf5f55 in G__getfunction (item=item
+entry=0xeb236e "ExecuteMacro(Form(\"$ALICE_PHYSICS/PWG/Cocktail/macros/AddMCEMCocktailV2.C(200, 0, %d, %d, \\\"parametrizations/Parametrizations_13TeV_mt_full_Andreas.root\\\", \\\"param\\\", 100, 0., 50, 2000, 0, 1, 0, 0\",de"..., known3=known3
+entry=0x7fffaa9274f4, memfunc_flag=<optimized out>, memfunc_flag
+entry=1) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/func.cxx:2660
+#37 0x00007fa2e7cbd07c in G__getstructmem (store_var_type=store_var_type
+entry=112, varname=..., membername=membername
+entry=0xeb236e "ExecuteMacro(Form(\"$ALICE_PHYSICS/PWG/Cocktail/macros/AddMCEMCocktailV2.C(200, 0, %d, %d, \\\"parametrizations/Parametrizations_13TeV_mt_full_Andreas.root\\\", \\\"param\\\", 100, 0., 50, 2000, 0, 1, 0, 0\",de"..., memnamesize=memnamesize
+entry=2147483647, tagname=tagname
+entry=0x21e7690 "gInterpreter", known2=0x7fffaa9274f4, varglobal=0x7fa2e847b180 <G__global>, objptr=2) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/var.cxx:6821
+#38 0x00007fa2e7cb61b5 in G__getvariable (item=item
+entry=0xeb2360 "gInterpreter->ExecuteMacro(Form(\"$ALICE_PHYSICS/PWG/Cocktail/macros/AddMCEMCocktailV2.C(200, 0, %d, %d, \\\"parametrizations/Parametrizations_13TeV_mt_full_Andreas.root\\\", \\\"param\\\", 100, 0., 50, 2000, "..., known=known
+entry=0x7fffaa9274f4, varglobal=0x7fa2e847b180 <G__global>, varlocal=0x7fffaa948920) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/var.cxx:5407
+#39 0x00007fa2e7bd22f1 in G__getitem (item=0xeb2360 "gInterpreter->ExecuteMacro(Form(\"$ALICE_PHYSICS/PWG/Cocktail/macros/AddMCEMCocktailV2.C(200, 0, %d, %d, \\\"parametrizations/Parametrizations_13TeV_mt_full_Andreas.root\\\", \\\"param\\\", 100, 0., 50, 2000, "...) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/expr.cxx:1906
+#40 0x00007fa2e7bd6c70 in G__getexpr (expression=<optimized out>) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/expr.cxx:1488
+#41 0x00007fa2e7bf51d6 in G__getfunction (item=item
+entry=0xea5710 "(gInterpreter->ExecuteMacro(Form(\"$ALICE_PHYSICS/PWG/Cocktail/macros/AddMCEMCocktailV2.C(200, 0, %d, %d, \\\"parametrizations/Parametrizations_13TeV_mt_full_Andreas.root\\\", \\\"param\\\", 100, 0., 50, 2000,"..., known3=known3
+entry=0x7fffaa934894, memfunc_flag=memfunc_flag
+entry=0) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/func.cxx:2316
+#42 0x00007fa2e7bd2752 in G__getitem (item=0xea5710 "(gInterpreter->ExecuteMacro(Form(\"$ALICE_PHYSICS/PWG/Cocktail/macros/AddMCEMCocktailV2.C(200, 0, %d, %d, \\\"parametrizations/Parametrizations_13TeV_mt_full_Andreas.root\\\", \\\"param\\\", 100, 0., 50, 2000,"...) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/expr.cxx:1918
+#43 0x00007fa2e7bd6c70 in G__getexpr (expression=expression
+entry=0x7fffaa937fa0 "(gInterpreter->ExecuteMacro(Form(\"$ALICE_PHYSICS/PWG/Cocktail/macros/AddMCEMCocktailV2.C(200, 0, %d, %d, \\\"parametrizations/Parametrizations_13TeV_mt_full_Andreas.root\\\", \\\"param\\\", 100, 0., 50, 2000,"...) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/expr.cxx:1488
+#44 0x00007fa2e7bf55b7 in G__getfunction (item=item
+entry=0xea4ae0 "(AliGenerator*)(gInterpreter->ExecuteMacro(Form(\"$ALICE_PHYSICS/PWG/Cocktail/macros/AddMCEMCocktailV2.C(200, 0, %d, %d, \\\"parametrizations/Parametrizations_13TeV_mt_full_Andreas.root\\\", \\\"param\\\", 100"..., known3=known3
+entry=0x7fffaa941c34, memfunc_flag=memfunc_flag
+entry=0) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/func.cxx:2410
+#45 0x00007fa2e7bd2752 in G__getitem (item=0xea4ae0 "(AliGenerator*)(gInterpreter->ExecuteMacro(Form(\"$ALICE_PHYSICS/PWG/Cocktail/macros/AddMCEMCocktailV2.C(200, 0, %d, %d, \\\"parametrizations/Parametrizations_13TeV_mt_full_Andreas.root\\\", \\\"param\\\", 100"...) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/expr.cxx:1918
+#46 0x00007fa2e7bd6c70 in G__getexpr (expression=<optimized out>) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/expr.cxx:1488
+#47 0x00007fa2e7bd7643 in G__getexpr (expression=<optimized out>) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/expr.cxx:1446
+#48 0x00007fa2e7c43de8 in G__exec_statement (mparen=mparen
+entry=0x7fffaa9484b0) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/parse.cxx:6980
+#49 0x00007fa2e7c4994f in G__exec_if () at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/parse.cxx:1448
+#50 G__exec_statement (mparen=mparen
+entry=0x7fffaa94870c) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/parse.cxx:7285
+#51 0x00007fa2e7c0562a in G__interpret_func (result7=result7
+entry=0x7fffaa949280, funcname=<optimized out>, libp=libp
+entry=0x7fffaa9492c0, hash=<optimized out>, p_ifunc=0x105e6f0, funcmatch=funcmatch
+entry=1, memfunc_flag=<optimized out>) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/ifunc.cxx:6710
+#52 0x00007fa2e7bf5c22 in G__getfunction (item=item
+entry=0xe967b0 "runStandaloneCocktail()", known3=known3
+entry=0x7fffaa953d64, memfunc_flag=<optimized out>, memfunc_flag
+entry=0) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/func.cxx:2901
+#53 0x00007fa2e7bd2752 in G__getitem (item=0xe967b0 "runStandaloneCocktail()") at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/expr.cxx:1918
+#54 0x00007fa2e7bd6c70 in G__getexpr (expression=expression
+entry=0x1f08200 "runStandaloneCocktail()") at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/expr.cxx:1488
+#55 0x00007fa2e7be190c in G__calc_internal (exprwithspace=<optimized out>) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/expr.cxx:1071
+#56 0x00007fa2e7c53efe in G__process_cmd (line=line
+entry=0x1304d10 ".X  /afs/cern.ch/work/p/pkurash/pp_photons/13TeV/Cocktail/cocktail_input-master/./runStandaloneCocktail.C", prompt=prompt
+entry=0xe86218 "", more=more
+entry=0xe86210, err=err
+entry=0x7fffaa95758c, rslt=rslt
+entry=0x7fffaa957590) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/cint/cint/src/pause.cxx:2331
+#57 0x00007fa2e88f5b80 in TCint::ProcessLine (this=0xe861d0, line=0x1304d10 ".X  /afs/cern.ch/work/p/pkurash/pp_photons/13TeV/Cocktail/cocktail_input-master/./runStandaloneCocktail.C", error=0x7fffaa9582f4) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/core/meta/src/TCint.cxx:549
+#58 0x00007fa2e88f1047 in TCint::ProcessLineSynch (this=0xe861d0, line=0x1304d10 ".X  /afs/cern.ch/work/p/pkurash/pp_photons/13TeV/Cocktail/cocktail_input-master/./runStandaloneCocktail.C", error=0x7fffaa9582f4) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/core/meta/src/TCint.cxx:631
+#59 0x00007fa2e893c595 in TApplication::ExecuteFile (file=<optimized out>, error=0x7fffaa9582f4, keep=<optimized out>) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/core/base/src/TApplication.cxx:1110
+#60 0x00007fa2e893d887 in TApplication::ProcessLine (this=0x10358d0, line=<optimized out>, sync=<optimized out>, err=0x7fffaa9582f4) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/core/base/src/TApplication.cxx:959
+#61 0x00007fa2e8e3f692 in TRint::Run (this=this
+entry=0x10358d0, retrn=retrn
+entry=false) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/core/rint/src/TRint.cxx:417
+#62 0x000000000040110c in main (argc=<optimized out>, argv=0x7fffaa95a488) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/main/src/rmain.cxx:29
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+If they do not help you then please submit a bug report at
+http://root.cern.ch/bugs. Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#6  0x00007fa2e3f5e9e4 in TFormula::GetParameter (this=this
+entry=0x29cca40, ipar=ipar
+entry=0) at /jenkins/workspace/build-any-ib/sw/20156342/1/SOURCES/ROOT/v5-34-30-alice10/v5-34-30-alice10/hist/hist/src/TFormula.cxx:3140
+#7  0x00007fa2c5ead540 in AliGenEMlibV2::SetPtParametrizations (fileName=..., dirName=...) at /jenkins/workspace/DailyBuilds/DailyAliPhysics/daily-tags.sV2toLMyVL/SOURCES/AliPhysics/vAN-20220518/3b0a56c9ce/PWG/Cocktail/AliGenEMlibV2.cxx:1346
+#8  0x00007fa2c5ea3f21 in AliGenEMCocktailV2::CreateCocktail (this=0x26f5d90) at /jenkins/workspace/DailyBuilds/DailyAliPhysics/daily-tags.sV2toLMyVL/SOURCES/AliPhysics/vAN-20220518/3b0a56c9ce/PWG/Cocktail/AliGenEMCocktailV2.cxx:191
+===========================================================
+
+
+Function runStandaloneCocktail() busy flag cleared
+Function AddMCEMCocktailV2() busy flag cleared
+
+     Advisory warning type 7 given after        0 PYEXEC calls:
+     (PYUPDA:) Kinematically unallowed decay of KF =       18
+
+     Advisory warning type 7 given after        0 PYEXEC calls:
+     (PYUPDA:) Kinematically unallowed decay of KF =      113
+
+     Advisory warning type 7 given after        0 PYEXEC calls:
+     (PYUPDA:) Kinematically unallowed decay of KF =      113
+
+     Advisory warning type 7 given after        0 PYEXEC calls:
+     (PYUPDA:) Kinematically unallowed decay of KF =      113
+
+     Advisory warning type 7 given after        0 PYEXEC calls:
+     (PYUPDA:) Kinematically unallowed decay of KF =      113
+
+     Advisory warning type 7 given after        0 PYEXEC calls:
+     (PYUPDA:) Kinematically unallowed decay of KF =      115
+
+     Advisory warning type 7 given after        0 PYEXEC calls:
+     (PYUPDA:) Kinematically unallowed decay of KF =      215
+
+     Advisory warning type 7 given after        0 PYEXEC calls:
+     (PYUPDA:) Sum of branching ratios is  1.05920 for KF =      421
+
+     Advisory warning type 7 given after        0 PYEXEC calls:
+     (PYUPDA:) Sum of branching ratios is  1.09610 for KF =     4122

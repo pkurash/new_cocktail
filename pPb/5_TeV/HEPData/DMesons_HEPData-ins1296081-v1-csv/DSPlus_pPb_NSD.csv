@@ -1,0 +1,18 @@
+%: table_doi: 10.17182/hepdata.63866.v1/t4
+%: name: Table 4
+%: description: pT-differential cross section of prompt Ds+ mesons measured in p-Pb collisions in the rapidity interval -0.96<y_cms<0.04.
+
+%: data_file: Table4.yaml
+%: keyword reactions: P PB --> D/S+ X
+%: keyword observables: DSIG/DPT
+%: keyword phrases: Inclusive | Prompt | Single Differential Cross Section | Transverse Momentum Dependence | Charm production | Strange production
+%: keyword cmenergies: 5020.0
+%: RE   P PB --> D/S+ X
+%: YRAP(RF=CM)   -0.96-0.04
+%: SQRT(S)/NUCLEON [GeV]   5020.0
+%'PT [GEV]' 'PT [GEV] LOW' 'PT [GEV] HIGH' 'D2(SIG)/DPT/DYRAP [MUB/GEV]' 'stat +' 'stat -' 'sys +' 'sys -' 'sys overall normalization uncertainty +' 'sys overall normalization uncertainty -' 'sys uncertainty on branching ratio +' 'sys uncertainty on branching ratio -'
+3.0 2.0 4.0 3910.0 866.0 -866.0 -1310.0 918.0 '3.7%' '-3.7%' '5.3%' '-5.3%'
+5.0 4.0 6.0 602.0 85.4 -85.4 -159.0 126.0 '3.7%' '-3.7%' '5.3%' '-5.3%'
+7.0 6.0 8.0 162.0 24.6 -24.6 -39.7 34.3 '3.7%' '-3.7%' '5.3%' '-5.3%'
+10.0 8.0 12.0 43.6 6.41 -6.41 -10.9 9.5 '3.7%' '-3.7%' '5.3%' '-5.3%'
+

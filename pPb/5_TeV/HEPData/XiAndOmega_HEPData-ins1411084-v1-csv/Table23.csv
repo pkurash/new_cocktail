@@ -1,0 +1,22 @@
+%: table_doi: 10.17182/hepdata.73011.v1/t23
+%: name: Table 23
+%: description: Xi/pi ratio as a function of charged particle multiplicity per unit pseudorapidity.
+
+%: data_file: Table23.yaml
+%: keyword reactions: P PB --> XIBAR+ X | P PB --> XI- X | P PB --> PI+ X | P PB --> PI- X
+%: keyword observables: N/N
+%: keyword phrases: Inclusive
+%: keyword cmenergies: 5020.0
+%: RE(Q=XI)   P PB --> (XI- + XIBAR+) X
+%: YRAP(C=CM)   -0.5-0.0
+%: SQRT(S)/NUCLEON [GeV]   5020.0
+%: RE(Q=PI)   P PB --> (PI- + PI+) X
+%'dNch/deta | -0.5<y<0' 'dNch/deta | -0.5<y<0 LOW' 'dNch/deta | -0.5<y<0 HIGH' 'N(XI- + XIBAR+) / N(PI- + PI+)' 'stat +' 'stat -' 'sys uncorr +' 'sys uncorr -' 'sys total +' 'sys total -'
+4.300000000000001 4.2 4.4 0.00343088 8.36118e-05 -8.36118e-05 0.000162806 -0.000162806 0.000466963 -0.000466963
+9.8 9.6 10.0 0.00421989 4.4912e-05 -4.4912e-05 0.000147391 -0.000147391 0.000391315 -0.000391315
+16.1 15.7 16.5 0.0047482 4.19157e-05 -4.19157e-05 0.000149772 -0.000149772 0.000478628 -0.000478628
+23.2 22.7 23.7 0.00505794 2.94839e-05 -2.94839e-05 0.000156172 -0.000156172 0.000456024 -0.000456024
+30.5 29.8 31.2 0.00534641 3.53421e-05 -3.53421e-05 0.000172201 -0.000172201 0.000472847 -0.000472847
+36.2 35.4 37.0 0.00562507 4.70999e-05 -4.70999e-05 0.000184334 -0.000184334 0.000496736 -0.000496736
+45.0 44.0 46.0 0.00576862 4.51244e-05 -4.51244e-05 0.000195059 -0.000195059 0.000490197 -0.000490197
+

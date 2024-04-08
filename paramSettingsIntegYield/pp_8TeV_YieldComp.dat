@@ -1,0 +1,3 @@
+%particle   centrality  method  Fit1    Fit2    Fit3
+NPion       MB          -       oHagPt  tcmpt   tmpt    stop
+Eta         MB          -       oHagPt  tcmpt   tmpt    stop

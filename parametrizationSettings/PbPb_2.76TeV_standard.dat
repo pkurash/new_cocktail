@@ -1,0 +1,83 @@
+%particle	centrality	method  pt const rel sys(%)	ptMin	ptMax	func	  opt    par1	par1Low	par1Up	par2	par2Low	par2Up	par3	par3Low	par3Up	par4	par4Low	par4Up	par5	par5Low	par5Up	par6	par6Low	par6Up
+NPion       0005        Comb    -         0.      14.0    modkfuncpt  QNRME+  6058.27   -   -   0.6029   -   -   0.1656  -   -   58.13 -   -   2.595   -   -   6.35   -   -   75.708   -   -   227.055 -   -   376.13   -   -   stop
+NPion       0005        PCM     0.09      0.      14.0    modkfuncpt  QNRME+  2638  -   -   -0.47   -   -   0.41    -   -   830 -   -   411 -   -   874 -   -   16  -   -   4   -   -   6.99    -   -     stop
+NPion       0005        PHOS    -         1.0     14.0    modkfuncpt  QNRME+  stop
+Eta         0005        PCM     0.09      0.      10.0    modkfuncpt  QNRME+  stop
+CPion       0005        -       -         0.1     20.0    modkfuncpt  QNRME+  32945  -   -  0.9    -   -    0.05    -   -   915    -   -   29.8    -   -   66.  -   -   9.7   -   -   4 -   -   6.6    -   -     stop
+CKaon       0005        -       -         0.2     20.0    modkfuncpt  QNRME+  7803  -   -   0.75    -   -   0.12    -   -   4.1   -   -   2.8    -   -   5.3    -   -   23.2    -   -   207.    -   -   285.    -   -     stop
+Proton      0005        -       -         0.3     20.0    modkfuncpt  QNRME+  21043 -   -   0.767   -   -   0.135   -   -   9.68    -   -   16.7   -   -   23.5   -   -   0.064    -   -   3.36   -   -   4.5    -   - stop
+Phi         0005        -       -         0.5     21.0    qcdpt       QNRME+  15.1548   -   -   0.449   -   -   0.102   -   -   2.3 -   -   9.5 -   -   stop
+NKaonSubS   0005        -       -         0.3     12.0    modkfuncpt  QNRME+  3265.57  -   -   0.57  -   -   0.1829  -   -   683.834 -   -   1.5655    -   -   6.63    -   -   -909    -   -   2.528  -   -  11.44    -   -    stop
+Lambda      0005        -       -         0.6     12.0    oHagPt      QNRME+  stop
+NPion       0510        Comb    -         0.      14.0    modkfuncpt  QNRME+  16486  -   -   -0.19    -   -   0.20   -   -   125 -   -   2.11   -   -   7.44    -   -   2083. -   -   310   -   -   853   -   -     stop
+NPion       0510        PCM     0.09      0.      14.0    modkfuncpt  QNRME+  2638  -   -   -0.47   -   -   0.41    -   -   830 -   -   411 -   -   874 -   -   16  -   -   4   -   -   6.99    -   -     stop
+NPion       0510        PHOS    -         1.0     14.0    modkfuncpt  QNRME+  stop
+Eta         0510        PCM     0.09      0.      10.0    modkfuncpt  QNRME+  118.8 -   -   -0.07   -   -   0.46    -   -   26.8    -   -   1.21    -   -   4.529   -   -   29348   -   -   12.87   -   -   8409   -   - stop
+CPion       0510        -       -         0.1     20.0    modkfuncpt  QNRME+  32945  -   -  0.9    -   -    0.05    -   -   915    -   -   29.8    -   -   66.  -   -   9.7   -   -   4 -   -   6.6    -   -     stop
+CKaon       0510        -       -         0.2     20.0    modkfuncpt  QNRME+  7803  -   -   0.75    -   -   0.12    -   -   4.1   -   -   2.8    -   -   5.3    -   -   23.2    -   -   207.    -   -   285.    -   -     stop
+Proton      0510        -       -         0.3     20.0    qcdpt       QNRME+  16.8   -   -   7.19    -   -   -56.8   -   -   1.7 -   -   7.99    -   -   stop
+Phi         0510        -       -         0.5     21.0    qcdpt       QNRME+  stop
+NKaonSubS   0510        -       -         0.3     12.0    modkfuncpt  QNRME+  3265.57   -   -   0.2726   -   -   0.2792  -   -   3509.26 -   -   0.7946   -   -   5.7   -   -   -2358.6   -   -   44.23   -   -   215.7   -   -  stop
+Lambda      0510        -       -         0.6     12.0    oHagPt      QNRME+  15.2  -   -   0.437   -   -   0.1173  -   -   2.19    -   -   9.12    -   -   stop
+NPion       0010        Comb    -         0.      20.0    modkfuncpt  QNRME+  16486  -   -   -0.19    -   -   0.20   -   -   125 -   -   2.11   -   -   7.44    -   -   2083. -   -   310   -   -   853   -   -     stop
+NPion       0010        PCM     0.09      0.      14.0    modkfuncpt  QNRME+  2638  -   -   -0.47   -   -   0.41    -   -   830 -   -   411 -   -   874 -   -   16  -   -   4   -   -   6.99    -   -     stop
+NPion       0010        PHOS    -         1.0     14.0    modkfunc    QNRME+  6541  -   -   0.84    -   -   0.1   -   -   3406    -   -   1.86    -   -   8.397    -   -   1.27    -   -   7.92   -   -   7.6    -   -  stop
+NPion       0010        EMCal   -         4.0     20.0    modkfuncpt  QNRME+  2638  -   -   -0.47   -   -   0.41    -   -   830 -   -   411 -   -   874 -   -   16  -   -   4   -   -   6.99    -   -     stop
+Eta         0010        Comb    -         0.      20.0    modkfunc  QNRME+  6454.17   -   -   0.8478   -   -   0.11069   -   -   26.8373 -  -  3.38 -   -  7.39  -   -  -7.54539   -   -   0.109    -   -   2.4332  -   -   stop
+%modkfuncpt  QNRME+  53   -   -   -0.77    -   -   1.14    -   -   19715   -   -   0.869   -   -   7.99    -   -   1.93    -   -   2.15    -   -   5.839    -   -   stop
+Eta         0010        PCM     0.09      0.      10.0    modkfuncpt  QNRME+  2057  -   -   0.876   -   -   0.097   -   -   14819   -   -   1.08    -   -   8.58    -   -   4.15    -   -   0.35    -   -   3.17 -   -    stop
+Eta         0010        EMCal   -         4.0     20.0    oHagPt      QNRME+  91.6    -   -   6.46  -   -   -35221  -   -   1.03    -   -   5.9 -   -    stop
+CPion       0010        -       -         0.1     20.0    modkfunc    QNRME+  2638  -   -   -0.47   -   -   0.41    -   -   830 -   -   411 -   -   874 -   -   16  -   -   4   -   -   6.99    -   -     stop
+CKaon       0010        -       -         0.2     20.0    modkfunc    QNRME+  8161  -   -   0.745   -   -   0.12    -   -   27.95   -   -   14.01   -   -   15.67   -   -   -9.06   -   -   138 -   -   108 -   -  stop
+Proton      0010        -       -         0.3     20.0    modkfunc    QNRME+  21043 -   -   0.767   -   -   0.135   -   -   9.68    -   -   16.7   -   -   23.5   -   -   0.064    -   -   3.36   -   -   4.5    -   - stop
+Phi         0010        -       -         0.5     21.0    qcdpt       QNRME+  stop
+NKaonSubS   0010        -       -         0.3     12.0    modkfunc    QNRME+  3000  -   -   0.74    -   -   0.12    -   -   0.933   -   -   4.59    -   -   6.24    -   -   12.8    -   -   835 -   -   1137    -   -     stop
+Lambda      0010        -       -         0.6     12.0    oHagPt      QNRME+  15.1763   -   -   0.4434  -   -   0.109   -   -   2.25    -   -   9.3199  -   -     stop
+NPion       1020        Comb    -         0.4     14.0    oHagPt      QNMRE+  stop
+NPion       1020        PCM     0.09      0.4     12.0    modkfunc    QNRME+  228 -   -   -0.92   -   -   1.65    -   -   3115    -   -   1.6 -   -   7.45    -   -   29348   -   -   19.95   -   -   8409    -   - stop
+NPion       1020        PHOS    -         1.0     14.0    oHagPt      QNMRE+  stop
+CPion       1020        -       -         0.1     20.0    modkfunc    QNRME+  16678 -   -   0.91    -   -   0.044   -   -   506 -   -   9.4 -   -   23.3    -   -   4.04    -   -   4   -   -   6.3 -   -  stop
+CKaon       1020        -       -         0.2     20.0    modkfunc    QNRME+  3000  -   -   0.74    -   -   0.12    -   -   0.933   -   -   4.59    -   -   6.24    -   -   12.8    -   -   835 -   -   1137    -   -     stop
+Proton      1020        -       -         0.3     20.0    modkfunc    QNRME+  10686 -   -   0.75   -   -   0.139   -   -   5.92    -   -   49.03   -   -   59.7   -   -   0.007    -   -   73.3   -   -   28.8    -   - stop
+Phi         1020        -       -         0.5     21.0    qcdpt       QNRME+  stop
+NKaonSubS   1020        -       -         0.3     12.0    modkfunc    QNRME+  3000  -   -   0.74    -   -   0.12    -   -   0.933   -   -   4.59    -   -   6.24    -   -   12.8    -   -   835 -   -   1137    -   -     stop
+Lambda      1020        -       -         0.6     12.0    oHagPt      QNRME+  8.23  -   -   0.484   -   -   0.104   - -   2.04    -   -   8.54  -   -     stop
+NRho        0020        -       -         0.5     11.0    oHagPt      QNRME+  stop
+NPion       2040        Comb    -         1.0     14.0    modkfuncpt  QNRME+  3025  -   -   0.82    -   -   0.10    -   -   588 -   -   1.43    -   -   6.14    -   -   2.9 -   -   2.21    -   -   16.4    -   -  stop
+NPion       2040        PCM     0.09      1.0     14.0    modkfuncpt  QNRME+  1825    -   -   0.5 -   -   0.185   -   -   84.1    -   -   5.78    -   -   10.26   -   -   -9.2    -   -   94.48   -   -   90.6    -   -     stop
+NPion       2040        PHOS    -         1.0     14.0    modkfuncpt  QNRME+  1486  -   -   0.52    -   -   0.17    -   -   4439    -   -   0.79    -   -   5.67    -   -   28.53   -   -   316     -   -   541 -   -     stop
+Eta         2040        PCM     0.09      1.0     10.0    modkfuncpt  QNRME+  48.6  -   -   -0.86   -   -   1.296   -   -   41.8    -   -   1.39    -   -   6.1 -   -   29348   -   -   12.87   -   -   8409   -   - stop
+CPion       2040        -       -         0.1     20.0    modkfuncpt  QNRME+  16678 -   -   0.91    -   -   0.044   -   -   506 -   -   9.4 -   -   23.3    -   -   4.04    -   -   4   -   -   6.3 -   -  stop
+CKaon       2040        -       -         0.2     20.0    modkfuncpt  QNRME+  3000  -   -   0.74    -   -   0.12    -   -   0.933   -   -   4.59    -   -   6.24    -   -   12.8    -   -   835 -   -   1137    -   -     stop
+Proton      2040        -       -         0.3     20.0    qcdpt       QNRME+  16.8   -   -   7.19    -   -   -56.8   -   -   1.7 -   -   7.99    -   -   stop
+NKaonSubS   2040        -       -         0.3     12.0    modkfuncpt  QNRME+  3000  -   -   0.74    -   -   0.12    -   -   0.933   -   -   4.59    -   -   6.24    -   -   12.8    -   -   835 -   -   1137    -   -     stop
+Phi         2040        -       -         0.5     21.0    qcdpt       QNRME+  stop
+Lambda      2040        -       -         0.6     12.0    oHagPt      QNRME+  8.23  -   -   0.484   -   -   0.104   - -   2.04    -   -   8.54  -   -     stop
+NRho        2040        -       -         0.5     11.0    oHagPt      QNRME+  stop
+NPion       2050        Comb    -         0.      20.0    modkfuncpt  QNRME+  2613    -   -   0.9 -   -   0.075   -   -   638 -   -   1.72    -   -   7.07    -   -   0.015   -   -   50. -   -   18.2  -  -     stop
+NPion       2050        PCM     0.09      0.      14.0    modkfuncpt  QNRME+  2115  -   -   0.83    -   -   0.09    -   -   474 -   -   2.6    -   -   7.8    -   -   -24 -   -   19    -   -   25   -   -  stop
+NPion       2050        EMCal   -         4.0     20.0    oHagPt      QNRME+  stop
+Eta         2050        Comb    -         0.      20.0    modkfuncpt  QNRME+  125.9 -   -   -0.27   -   -   0.467   -   -   8.  -   -   2.55    -   -   7.369   -   -   -2896   -   -   12.87   -   -   8409   -   - stop
+Eta         2050        PCM     0.09      0.      10.0    modkfunc    QNRME+  2538    -   -   0.928   -   -   0.079   -   -   715 -   -   1.4 -   -   7.5 -   -   1.7 -   -   0.12    -   -   1.64    -   -       stop
+Eta         2050        EMCal   -         4.0     20.0    oHagPt      QNRME+  8.23   -   -   1.08    -   -   157   -   -   1.46    -   -   6.1    -   -     stop
+NPion       4060        Comb    -         0.4     14.0    modkfunc    QNMRE+  stop
+NPion       4060        PCM     0.09      0.4     12.0    modkfunc    QNMRE+  stop
+NPion       4060        PHOS    -         1.0     14.0    oHagPt      QNMRE+  stop
+CPion       4060        -       -         0.1     20.0    modkfunc    QNRME+  16678 -   -   0.91    -   -   0.044   -   -   506 -   -   9.4 -   -   23.3    -   -   4.04    -   -   4   -   -   6.3 -   -  stop
+CKaon       4060        -       -         0.2     20.0    modkfunc    QNRME+  3000  -   -   0.74    -   -   0.12    -   -   0.933   -   -   4.59    -   -   6.24    -   -   12.8    -   -   835 -   -   1137    -   -     stop
+Proton      4060        -       -         0.3     20.0    modkfunc    QNRME+  3000  -   -   0.74    -   -   0.12    -   -   0.933   -   -   4.59    -   -   6.24    -   -   12.8    -   -   835 -   -   1137    -   -     stop
+NKaonSubS   4060        -       -         0.3     12.0    modkfunc    QNRME+  3000  -   -   0.74    -   -   0.12    -   -   0.933   -   -   4.59    -   -   6.24    -   -   12.8    -   -   835 -   -   1137    -   -     stop
+Lambda      4060        -       -         0.6     12.0    oHagPt      QNRME+  8.23  -   -   0.484   -   -   0.104   - -   2.04    -   -   8.54  -   -     stop
+NRho        4060        -       -         0.5     11.0    oHagPt      QNRME+  stop
+NPion       6080        Comb    -         0.4     14.0    modkfunc    QNMRE+  -127    -   -   0.85    -   -   0.009   -   -   215 -   -   1.6 -   -   7.4 -   -   0.89    -   -   0.03    -   -   1.5    -   -       stop
+NPion       6080        PCM     0.09      0.4     12.0    modkfunc    QNMRE+  238 -   -   0.525   -   -   0.15    -   -   63.8    -   -   0.95    -   -   5.19    -   -   8.3 -   -   13.3    -   -   25.4    -   -       stop
+NPion       6080        PHOS    -         1.0     14.0    oHagPt      QNMRE+      stop
+CPion       6080        -       -         0.1     20.0    modkfunc    QNRME+  627 -   -   0.72    -   -   0.09    -   -   148     -   -   1   -   -   7.9 -   -   3.2 -   -   1   -   -   4   -   -  stop
+CKaon       6080        -       -         0.2     20.0    modkfunc    QNRME+  3000  -   -   0.74    -   -   0.12    -   -   0.933   -   -   4.59    -   -   6.24    -   -   12.8    -   -   835 -   -   1137    -   -     stop
+Proton      6080        -       -         0.3     20.0    modkfunc    QNRME+  3000  -   -   0.74    -   -   0.12    -   -   0.933   -   -   4.59    -   -   6.24    -   -   12.8    -   -   835 -   -   1137    -   -     stop
+Phi         6080        -       -         0.5     6.0     oHagPt      QNRME+  stop
+NKaonSubS   6080        -       -         0.3     12.0    modkfunc    QNRME+  -473    -   -   -0.25   -   -   0.17    -   -   25.3    -   -   3.6 -   -   10.7    -   -   1.37    -   -   1   -   -   4   -   -    stop
+Lambda      6080        -       -         0.6     12.0    oHagPt      QNRME+  8.23  -   -   0.484   -   -   0.104   - -   2.04    -   -   8.54  -   -     stop
+NRho        6080        -       -         0.5     11.0    oHagPt      QNRME+  stop
+NKaonSubS   8090        -       -         0.3     12.0    modkfunc    QNRME+  3000  -   -   0.74    -   -   0.12    -   -   0.933   -   -   4.59    -   -   6.24    -   -   12.8    -   -   835 -   -   1137    -   -     stop
+Lambda      8090        -       -         0.6     12.0    oHagPt      QNRME+  8.23  -   -   0.484   -   -   0.104   - -   2.04    -   -   8.54  -   -     stop

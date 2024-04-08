@@ -1,0 +1,15 @@
+#: table_doi: 10.17182/hepdata.77971.v1/t11
+#: name: Table 11
+#: description: $p_{\rm T}$-integrated yield d$N$/d$y$ of ($\Sigma^{*\pm}+\overline{\Sigma}^{*\mp}$)/4 in p-Pb collisions with centre-of-mass energy/nucleon=5.02 TeV. Yields are normalised to the visible cross section for each V0A multiplicity event class and to NSD events for the minimum bias case.
+
+#: data_file: Table11.yaml
+#: keyword reactions: P PB --> SIGMA(1385)+ X | P PB --> SIGMA(1385)- X | P PB --> SIGMABAR(1385)- X | P PB --> SIGMABAR(1385)+ X
+#: keyword observables: DN/DETARAP
+#: SQRT(S)/NUCLEON,5020 GeV
+#: RE,P PB --> SIGMA(1385)+ X,,,,,,
+'Multiplicity class (%)','d$N$/d$y$','stat +','stat -','sys +','sys -'
+'0-100',0.049,0.0006,-0.0006,0.0065,-0.0065
+'0-20',0.0903,0.0014,-0.0014,0.0079,-0.0079
+'20-60',0.0522,0.0008,-0.0008,0.006,-0.006
+'60-100',0.0152,0.0004,-0.0004,0.0024,-0.0024
+

@@ -1,0 +1,4 @@
+%particle   centrality  method  ptMin   ptMax   func    opt     par1    par1Low par1Up  par2    par2Low par2Up  par3    par3Low par3Up  par4    par4Low par4Up   
+NPion       MB          Comb    0.4     7       oHag    QNRME+  stop                    
+NPion       MB          PCM     0.4     3.5     oHag    QNRME+  stop                            
+NPion       MB          PHOS    0.6     7       oHag    QNRME+  stop    

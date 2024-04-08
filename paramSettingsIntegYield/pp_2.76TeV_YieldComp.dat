@@ -1,0 +1,13 @@
+%particle   centrality  method  Fit1    Fit2    Fit3
+NPion       MB          -       oHagPt  tcmpt   tmpt    stop
+Eta         MB          -       oHagPt  tcmpt   tmpt    stop
+Proton      MB          -       oHagPt  tcmpt   tmpt    stop
+NKaonSubS   MB          -       oHagPt  tcmpt   tmpt    stop
+Lambda      MB          -       oHagPt  tcmpt   tmpt    stop
+CKaon       MB          -       oHagPt  tcmpt   tmpt    stop
+CPion       MB          -       oHagPt  tcmpt   tmpt    stop
+Phi         MB          -       oHagPt  tcmpt   tmpt    stop
+NKaonStar   MB          -       oHagPt  tcmpt   tmpt    stop
+CXi         MB          -       oHagPt  tcmpt   tmpt    stop
+COmega      MB          -       oHagPt  tcmpt   tmpt    stop
+NRho        MB          -       oHagPt  tcmpt   tmpt    stop

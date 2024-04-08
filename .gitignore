@@ -1,0 +1,12 @@
+*.d
+*.so
+*.creator
+*.config
+*.files
+*.includes
+*.out
+Cocktail*.root
+Cocktail*.dat
+galice.root
+plots/
+parametrizations/

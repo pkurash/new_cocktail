@@ -1,0 +1,18 @@
+%Path: /HepData/8365/d1-x1-y1
+%pT differential yield for OMEGA- and OMEGABAR+ production in P-P collisions     in the rapidity range -5 to 0.5.
+%Note: there is no division by (2.pi.pT) included in the ordinate values
+%Location: F 2
+%RE : P P --> OMEGA- X : P P --> OMEGABAR+ X
+%SQRT(S) : 7000.0 GeV
+%YRAP : -0.5 - 0.5
+%x : PT IN GEV
+%y : (1/N)*D2(N) /DPT/DYRAP IN GEV**-1
+%xdesc	x	xlow	xhigh	y (omega-)	dy+	dy- (stat)	dy+	dy- (sys) y (omega+)	dy+	dy- (stat)	dy+	dy-	(sys)
+	1.0	0.8	1.2	3.955E-4	+3.53E-5	-3.53E-5	+3.77E-5	-3.77E-5	3.823E-4	+3.26E-5	-3.26E-5	+4.0E-5	-4.0E-5
+	1.4	1.2	1.6	2.976E-4	+1.7E-5	-1.7E-5	+2.66E-5	-2.66E-5	3.13E-4	+1.64E-5	-1.64E-5	+2.4E-5	-2.4E-5
+	1.75	1.6	1.9	2.096E-4	+1.24E-5	-1.24E-5	+1.48E-5	-1.48E-5	2.105E-4	+1.26E-5	-1.26E-5	+1.71E-5	-1.71E-5
+	2.05	1.9	2.2	1.798E-4	+1.02E-5	-1.02E-5	+1.69E-5	-1.69E-5	1.623E-4	+9.9E-6	-9.9E-6	+1.29E-5	-1.29E-5
+	2.35	2.2	2.5	1.306E-4	+7.8E-6	-7.8E-6	+1.26E-5	-1.26E-5	1.199E-4	+7.4E-6	-7.4E-6	+8.1E-6	-8.1E-6
+	2.75	2.5	3.0	7.458E-5	+4.27E-6	-4.27E-6	+5.48E-6	-5.48E-6	7.394E-5	+4.17E-6	-4.17E-6	+5.31E-6	-5.31E-6
+	3.4	3.0	3.8	3.822E-5	+2.14E-6	-2.14E-6	+4.44E-6	-4.44E-6	3.715E-5	+2.06E-6	-2.06E-6	+3.17E-6	-3.17E-6
+	4.4	3.8	5.0	9.735E-6	+8.08E-7	-8.08E-7	+8.6E-7	-8.6E-7	9.259E-6	+7.9E-7	-7.9E-7	+9.46E-7	-9.46E-7

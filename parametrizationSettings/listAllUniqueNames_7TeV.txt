@@ -1,0 +1,11 @@
+Comb  1
+PCM 0
+PCMEMCal  1
+EMCal 0
+EMCalMB 1
+PHOS  1
+PCMnoOmega  0
+PCMEtaToPi0 1
+EMCalEtaToPi0 1
+PCMEtaToPi0Pass2ChargedKaonProxy  0
+LMEE  1

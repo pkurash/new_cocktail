@@ -1,0 +1,20 @@
+%particle   centrality  method  pt const rel sys(%) ptMin   ptMax   func    opt     par1    par1Low par1Up  par2    par2Low par2Up  par3    par3Low par3Up  par4    par4Low par4Up
+NPion       MB          Comb	   -                   0.      35.0    oHagPt  QNRME+  161.782 - - 0.0322 - - 0.178 - - 0.480 - - 4.9796 - - stop
+NPion       MB          PCM          0.09              0.4     12.0    oHagPt  QNRME+  511.782 - - 0.1522 - - -0.13 - - 0.44 - - 6.0 - - stop
+NPion       MB          EMCal        0.042             0.      14.0    oHagPt  QNRME+  511.782 - - 0.1522 - - -0.13 - - 0.44 - - 6.0 - - stop
+NPion       MB          EMCalMB      0.042             0.      16.0    oHagPt  QNRME+  50. - - 0.62 - - 0.02 - - 0.620 - - 5.94 - - stop
+NPion       MB          EMCalEMC7    0.042             4.0     20.0    doHagPt QNRME+  stop
+NPion       MB          PCMEMCal     0.045             0.      25.0    oHagPt  QNRME+  311.782 200 500 0.1522 - - -0.13 - - 0.44 - - 6.0 - - stop
+NPion       MB          PCMEMCalMB   0.045             0.      16.0    oHagPt  QNRME+  186. 160 220 0.415 - - -0.073 - - 0.489 - - 5.9 - - stop
+NPion       MB          PCMEMCalEMC7 0.045             4.0     22.0    oHagPt  QNRME+  stop
+NPion       MB          PCMEMCalEGA  0.045             9.0     35.0    oHagPt  QNRME+  511.782 - - 0.1522 - - -0.13 - - 0.44 - - 6.0 - - stop
+Eta         MB          Comb       -                   0.4     35.0    doHagPt QNRME+  stop
+Eta         MB          PCM          0.09              0.2     12.0    tmpt    QNRME+  stop
+Eta         MB          EMCal        0.042             0.0     30.0    doHagPt QNRME+  stop
+Eta         MB          PCMEMCal     0.045             1.2     25.0    doHagPt QNRME+  stop
+CPion       MB          -          -                   0.2     30.0    oHagPt  QNRME+  453     -       -       0.08        -       -       -0.17      -       -       0.43        -       -       6.0     5.8       6.3    stop
+CKaon       MB          -          -                   0.3     25.0    oHagPt  QNRME+  stop
+Proton      MB          -          -                   0.0     25.0    oHagPt  QNRME+  0.80    -       -       0.55        -       -       0          -       -       1.26        -       -       6.95     6.95     6.95   stop
+Lambda      MB          -          -                   0.0     25.0    oHagPt  QNRME+  2.2     -       -       0.8         -       -       0          -       -       0.8         -       -       5.5     -       -        stop
+NKaonStar   MB          -          -                   0.0     25.0    oHagPt  QNRME+  2.2     -       -       0.8         -       -       0          -       -       0.8         -       -       6.0     -       -        stop
+Phi         MB          -          -                   0.0     7.0     oHagPt  QNRME+  0.15    -       -       0.56        -       -       -0.08      -       -       1.15        -       -       5.6     5.5       5.7        stop

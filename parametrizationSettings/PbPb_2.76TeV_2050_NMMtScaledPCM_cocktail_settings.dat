@@ -1,0 +1,3 @@
+%particle   mtScaleFactor   mtScaleFactorUp     mtScaleFactorDown   particle    method  ratio           method
+111         -               -                   -                   NPion       PCM     stop
+221         -               -                   -                   NPion       PCM    EtaToNPion         PCM     stop 

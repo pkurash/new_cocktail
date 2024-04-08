@@ -1,0 +1,21 @@
+%: table_doi: 10.17182/hepdata.73011.v1/t20
+%: name: Table 20
+%: description: XiPlus yield as a function of charged particle multiplicity per unit pseudorapidity.
+
+%: data_file: Table20.yaml
+%: keyword reactions: P PB --> XIBAR+ X
+%: keyword observables: N
+%: keyword phrases: Inclusive
+%: keyword cmenergies: 5020.0
+%: RE   P PB --> XIBAR+ X
+%: YRAP(C=CM)   -0.5-0.0
+%: SQRT(S)/NUCLEON [GeV]   5020.0
+%'dNch/deta | -0.5<y<0' 'dNch/deta | -0.5<y<0 LOW' 'dNch/deta | -0.5<y<0 HIGH' 'DN/DYRAP' 'stat +' 'stat -' 'sys uncorr +' 'sys uncorr -' 'sys total +' 'sys total -'
+4.300000000000001 4.2 4.4 0.1174 0.0013 -0.0013 0.0025 -0.0025 0.0082 -0.0082
+9.8 9.6 10.0 0.0938 0.0011 -0.0011 0.0019 -0.0019 0.0075 -0.0075
+16.1 15.7 16.5 0.0754 0.0007 -0.0007 0.0015 -0.0015 0.006 -0.006
+23.2 22.7 23.7 0.0555 0.0005 -0.0005 0.001 -0.001 0.0047 -0.0047
+30.5 29.8 31.2 0.037 0.0004 -0.0004 0.0007 -0.0007 0.0039 -0.0039
+36.2 35.4 37.0 0.0201 0.0003 -0.0003 0.0005 -0.0005 0.0017 -0.0017
+45.0 44.0 46.0 0.0076 0.0002 -0.0002 0.0003 -0.0003 0.001 -0.001
+

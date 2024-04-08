@@ -1,0 +1,10 @@
+Comb	0
+CombEtaToPi0	0
+PCM	0
+PCMEtaToPi0	0
+PCMEMCal	0
+PCMEMCalEtaToPi0	0
+EMCal	0
+EMCalEtaToPi0	0
+PHOS	0
+Dalitz	0

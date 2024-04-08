@@ -1,0 +1,7 @@
+%particle   centrality  method   ToBeFitted   pt const rel sys(%) ptMin   ptMax   ptMinData   ptMaxData   ptMinInteg   ptMaxInteg     func    opt     par1    par1Low par1Up  par2    par2Low par2Up  par3    par3Low par3Up  par4    par4Low par4Up   par5    par5Low par5Up
+NPion       MB          Comb      Stat        -                   0.4     10.0    0.4         10.0        0            40             tmpt  QNRME+  stop
+Proton      MB          -         Stat        -                   0.4     2.4    0.4         2.4        0            40             tmpt  QNRME+   stop
+NKaonSubS   MB          -         Stat        -                   0.2     3.0    0.2         3.0        0            40             tmpt  QNRME+  stop
+Lambda      MB          -         Stat        -                   0.6     3.5    0.6         3.5        0            40             tmpt  QNRME+  stop
+CKaon       MB          -         Stat        -                   0.2     2.4    0.2         2.4        0            40             tmpt  QNRME+  stop
+CPion       MB          -         Stat        -                   0.1     2.6    0.1         2.6        0            40             tmpt  QNRME+  stop

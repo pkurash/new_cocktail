@@ -1,0 +1,23 @@
+%: table_doi: 10.17182/hepdata.77971.v1/t8
+%: name: Table 8
+%: description: $p_{\rm{T}}$-differential yield of ($\Xi^{*0}+\overline{\Xi}^{*0}$)/2 in p-Pb collisions with centre-of-mass energy/nucleon=5.02 TeV (20-40\% multiplicity class).
+
+%: data_file: Table8.yaml
+%: keyword reactions: P PB --> XI(1530)0 X | P PB --> XIBAR(1530)0 X
+%: keyword observables: DN/DPT/DYRAP
+%: SQRT(S)/NUCLEON   5020.0 GeV
+%: RE   P PB --> XI(1530)0 X    
+%: YRAP(C=CM)   -0.5-0.0
+%: class   20.0-40.0 pct
+%'$p_{\rm{T}}$ [GeV]' '$p_{\rm{T}}$ [GeV] LOW' '$p_{\rm{T}}$ [GeV] HIGH' '(1/N$_{\rm{ev}}$)*d$^{2}N$/(d$p_{\rm{T}}$d$y$) [GeV$^{-1}$]' 'stat +' 'stat -' 'sys +' 'sys -'
+1.1 0.8 1.4 0.0091 0.0005 -0.0005 0.0001 -0.0001
+1.6 1.4 1.8 0.0066 0.00034 -0.00034 0.0006 -0.0006
+2.0 1.8 2.2 0.0046 0.00025 -0.00025 0.0004 -0.0004
+2.4000000000000004 2.2 2.6 0.00319 0.0002 -0.0002 0.00026 -0.00026
+2.8 2.6 3.0 0.00193 0.00015 -0.00015 0.00019 -0.00019
+3.2 3.0 3.4 0.00118 0.00012 -0.00012 0.0001 -0.0001
+3.5999999999999996 3.4 3.8 0.00071 8e-05 -8e-05 6e-05 -6e-05
+4.3 3.8 4.8 0.00033 4e-05 -4e-05 4e-05 -4e-05
+5.3 4.8 5.8 9.3e-05 1.7e-05 -1.7e-05 1.4e-05 -1.4e-05
+6.9 5.8 8.0 1.7e-05 4e-06 -4e-06 2.6e-06 -2.6e-06
+
